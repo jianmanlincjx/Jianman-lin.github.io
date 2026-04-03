@@ -209,6 +209,20 @@
   line-height: 1.55;
 }
 
+.jm-ccf {
+  display: inline-block;
+  margin: 0 0.1rem;
+  padding: 0.06rem 0.4rem;
+  font-size: 0.76rem;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  color: #4a5568;
+  background: #edf0f4;
+  border-radius: 4px;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
 .jm-pub-links-inline {
   display: inline;
   margin-left: 0.35rem;
@@ -343,5 +357,10 @@
 
   .jm-pub-thumb {
     background: #1c1f24;
+  }
+
+  .jm-ccf {
+    color: #c5cdd8;
+    background: #2a3038;
   }
 }

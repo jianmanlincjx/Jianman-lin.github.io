@@ -65,7 +65,7 @@ redirect_from:
             <h3 class="jm-pub-title">Neural Scene Designer: Self-Styled Semantic Image Manipulation</h3>
             <p class="jm-pub-meta"><strong>Jianman Lin</strong>, <a href="https://scholar.google.com/citations?user=aNvkklMAAAAJ&amp;hl=en" target="_blank" rel="noopener noreferrer">Tianshui Chen</a>, <a href="https://scholar.google.com/citations?user=soX8e10AAAAJ&amp;hl=en" target="_blank" rel="noopener noreferrer">Chunmei Qing</a>, Zhijing Yang, Shuangping Huang, Yuheng Ren, Liang Lin.</p>
             <p class="jm-pub-venue-line">
-              <strong>IEEE Transactions on Image Processing (TIP)</strong>, 2025.
+              <strong>IEEE Transactions on Image Processing (TIP)</strong>, 2025 · <span class="jm-ccf">CCF-A</span>
               <span class="jm-pub-links-inline">
                 <a href="https://github.com/jianmanlincjx" target="_blank" rel="noopener noreferrer">Code</a>
                 <a href="{{ '/publications/neural-scene-designer-tip/' | relative_url }}">Page</a>
@@ -82,7 +82,7 @@ redirect_from:
             <h3 class="jm-pub-title">Geometry-Editable and Appearance-Preserving Object Composition</h3>
             <p class="jm-pub-meta"><strong>Jianman Lin</strong>, Haojie Li, <a href="https://scholar.google.com/citations?user=soX8e10AAAAJ&amp;hl=en" target="_blank" rel="noopener noreferrer">Chunmei Qing</a>, Zhijing Yang, Liang Lin, <a href="https://scholar.google.com/citations?user=aNvkklMAAAAJ&amp;hl=en" target="_blank" rel="noopener noreferrer">Tianshui Chen</a>.</p>
             <p class="jm-pub-venue-line">
-              <strong>Under review</strong>.
+              <strong>Under review</strong> · <span class="jm-ccf">IJCV (CCF-A)</span>
               <span class="jm-pub-links-inline">
                 <a href="https://github.com/jianmanlincjx" target="_blank" rel="noopener noreferrer">Code</a>
                 <a href="{{ '/publications/ijcv-2025-dagd/' | relative_url }}">Page</a>
@@ -103,7 +103,7 @@ redirect_from:
             <h3 class="jm-pub-title">Learning Adaptive Spatial Coherent Correlations for Speech-Preserving Facial Expression Manipulation</h3>
             <p class="jm-pub-meta"><a href="https://scholar.google.com/citations?user=aNvkklMAAAAJ&amp;hl=en" target="_blank" rel="noopener noreferrer">Tianshui Chen</a>, <strong>Jianman Lin</strong>, Zhijing Yang, <a href="https://scholar.google.com/citations?user=soX8e10AAAAJ&amp;hl=en" target="_blank" rel="noopener noreferrer">Chunmei Qing</a>, Liang Lin.</p>
             <p class="jm-pub-venue-line">
-              <strong>CVPR 2024</strong> · Highlight (Top 2.8%).
+              <strong>CVPR 2024</strong> · Highlight (Top 2.8%) · <span class="jm-ccf">CCF-A</span>
               <span class="jm-pub-links-inline">
                 <a href="https://github.com/jianmanlincjx" target="_blank" rel="noopener noreferrer">Code</a>
                 <a href="{{ '/publications/cvpr-2024-asccl/' | relative_url }}">Page</a>
@@ -120,7 +120,7 @@ redirect_from:
             <h3 class="jm-pub-title">Contrastive Decoupled Representation Learning and Regularization for Speech-Preserving Facial Expression Manipulation</h3>
             <p class="jm-pub-meta"><a href="https://scholar.google.com/citations?user=aNvkklMAAAAJ&amp;hl=en" target="_blank" rel="noopener noreferrer">Tianshui Chen</a>, <strong>Jianman Lin</strong>*, Zhijing Yang, <a href="https://scholar.google.com/citations?user=soX8e10AAAAJ&amp;hl=en" target="_blank" rel="noopener noreferrer">Chunmei Qing</a>, Yukai Shi, Liang Lin.</p>
             <p class="jm-pub-venue-line">
-              <strong>International Journal of Computer Vision (IJCV)</strong>, 2025.
+              <strong>International Journal of Computer Vision (IJCV)</strong>, 2025 · <span class="jm-ccf">CCF-A</span>
               <span class="jm-pub-links-inline">
                 <a href="https://github.com/jianmanlincjx" target="_blank" rel="noopener noreferrer">Code</a>
                 <a href="{{ '/publications/ijcv-2025-cdrl/' | relative_url }}">Page</a>
@@ -150,7 +150,7 @@ redirect_from:
           <strong>South China University of Technology (SCUT)</strong>
           <span>Sep. 2024 - Present</span>
         </div>
-        <div class="jm-simple-sub">M.Eng. in Electronic Information · Guangzhou, China · GPA 80/100</div>
+        <div class="jm-simple-sub">M.Eng. in Electronic Information · Guangzhou, China</div>
         <div class="jm-simple-note">Supervisors: <a href="https://scholar.google.com/citations?user=aNvkklMAAAAJ&amp;hl=en" target="_blank" rel="noopener noreferrer">Prof. Tianshui Chen</a> (research) and <a href="https://scholar.google.com/citations?user=soX8e10AAAAJ&amp;hl=en" target="_blank" rel="noopener noreferrer">Prof. Chunmei Qing</a> (academic)</div>
       </div>
 
@@ -159,7 +159,7 @@ redirect_from:
           <strong>Guangdong University of Technology (GDUT)</strong>
           <span>Sep. 2020 - Jun. 2024</span>
         </div>
-        <div class="jm-simple-sub">B.Eng. in Industrial Engineering · Guangzhou, China · GPA 87.2/100</div>
+        <div class="jm-simple-sub">B.Eng. in Industrial Engineering · Guangzhou, China</div>
       </div>
     </section>
   </main>
