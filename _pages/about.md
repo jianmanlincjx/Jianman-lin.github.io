@@ -1,6 +1,7 @@
 ---
 permalink: /
 title:
+homepage: true
 author_profile: false
 redirect_from:
   - /cv/
@@ -58,7 +59,7 @@ redirect_from:
 
         <article class="jm-pub-item">
           <a class="jm-pub-thumb" href="https://arxiv.org/pdf/2509.01405" target="_blank" rel="noopener noreferrer">
-            <img src="{{ '/images/papers/TIP_2025_NSD.png' | relative_url }}" alt="TIP 2025 NSD" loading="lazy">
+            <img src="{{ '/images/papers/TIP_2025_NSD.png' | absolute_url }}" alt="TIP 2025 NSD" loading="lazy">
           </a>
           <div class="jm-pub-body">
             <h3 class="jm-pub-title">Neural Scene Designer: Self-Styled Semantic Image Manipulation</h3>
@@ -67,7 +68,7 @@ redirect_from:
               <strong>IEEE Transactions on Image Processing (TIP)</strong>, 2025.
               <span class="jm-pub-links-inline">
                 <a href="https://github.com/jianmanlincjx" target="_blank" rel="noopener noreferrer">Code</a>
-                <a href="{{ '/publications/neural-scene-designer-tip/' | relative_url }}">Page</a>
+                <a href="{{ '/publications/neural-scene-designer-tip/' | absolute_url }}">Page</a>
               </span>
             </p>
           </div>
@@ -75,7 +76,7 @@ redirect_from:
 
         <article class="jm-pub-item">
           <a class="jm-pub-thumb" href="https://arxiv.org/pdf/2505.20914" target="_blank" rel="noopener noreferrer">
-            <img src="{{ '/images/papers/underreview_2026_DAGD.png' | relative_url }}" alt="DAGD" loading="lazy">
+            <img src="{{ '/images/papers/underreview_2026_DAGD.png' | absolute_url }}" alt="DAGD" loading="lazy">
           </a>
           <div class="jm-pub-body">
             <h3 class="jm-pub-title">Geometry-Editable and Appearance-Preserving Object Composition</h3>
@@ -84,7 +85,7 @@ redirect_from:
               <strong>Under review</strong>.
               <span class="jm-pub-links-inline">
                 <a href="https://github.com/jianmanlincjx" target="_blank" rel="noopener noreferrer">Code</a>
-                <a href="{{ '/publications/ijcv-2025-dagd/' | relative_url }}">Page</a>
+                <a href="{{ '/publications/ijcv-2025-dagd/' | absolute_url }}">Page</a>
               </span>
             </p>
           </div>
@@ -96,7 +97,7 @@ redirect_from:
 
         <article class="jm-pub-item">
           <a class="jm-pub-thumb" href="https://openaccess.thecvf.com/content/CVPR2024/papers/Chen_Learning_Adaptive_Spatial_Coherent_Correlations_for_Speech-Preserving_Facial_Expression_Manipulation_CVPR_2024_paper.pdf" target="_blank" rel="noopener noreferrer">
-            <img src="{{ '/images/papers/CVPR_2024_ASCCL.png' | relative_url }}" alt="CVPR 2024 ASCCL" loading="lazy">
+            <img src="{{ '/images/papers/CVPR_2024_ASCCL.png' | absolute_url }}" alt="CVPR 2024 ASCCL" loading="lazy">
           </a>
           <div class="jm-pub-body">
             <h3 class="jm-pub-title">Learning Adaptive Spatial Coherent Correlations for Speech-Preserving Facial Expression Manipulation</h3>
@@ -105,7 +106,7 @@ redirect_from:
               <strong>CVPR 2024</strong> · Highlight (Top 2.8%).
               <span class="jm-pub-links-inline">
                 <a href="https://github.com/jianmanlincjx" target="_blank" rel="noopener noreferrer">Code</a>
-                <a href="{{ '/publications/cvpr-2024-asccl/' | relative_url }}">Page</a>
+                <a href="{{ '/publications/cvpr-2024-asccl/' | absolute_url }}">Page</a>
               </span>
             </p>
           </div>
@@ -113,7 +114,7 @@ redirect_from:
 
         <article class="jm-pub-item">
           <a class="jm-pub-thumb" href="https://arxiv.org/pdf/2504.05672" target="_blank" rel="noopener noreferrer">
-            <img src="{{ '/images/papers/IJCV_2025_CDRL.png' | relative_url }}" alt="IJCV 2025 CDRL" loading="lazy">
+            <img src="{{ '/images/papers/IJCV_2025_CDRL.png' | absolute_url }}" alt="IJCV 2025 CDRL" loading="lazy">
           </a>
           <div class="jm-pub-body">
             <h3 class="jm-pub-title">Contrastive Decoupled Representation Learning and Regularization for Speech-Preserving Facial Expression Manipulation</h3>
@@ -122,7 +123,7 @@ redirect_from:
               <strong>International Journal of Computer Vision (IJCV)</strong>, 2025.
               <span class="jm-pub-links-inline">
                 <a href="https://github.com/jianmanlincjx" target="_blank" rel="noopener noreferrer">Code</a>
-                <a href="{{ '/publications/ijcv-2025-cdrl/' | relative_url }}">Page</a>
+                <a href="{{ '/publications/ijcv-2025-cdrl/' | absolute_url }}">Page</a>
               </span>
             </p>
           </div>

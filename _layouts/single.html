@@ -14,7 +14,7 @@ layout: default
   {% endunless %}
 {% endif %}
 
-<div id="main" class="{% if page.url == '/' or page.permalink == '/' %}jm-main--home{% endif %}" role="main">
+<div id="main" class="{% if page.homepage or page.url == '/' or page.url == '/index.html' or page.permalink == '/' %}jm-main--home{% endif %}" role="main">
   {% include sidebar.html %}
 
   <article class="page" itemscope itemtype="http://schema.org/CreativeWork">

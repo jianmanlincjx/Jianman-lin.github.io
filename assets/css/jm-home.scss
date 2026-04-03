@@ -25,11 +25,13 @@
 /* Widen homepage: theme #main / .page use a narrow column */
 #main.jm-main--home,
 #main:has(.jm-homepage) {
-  max-width: none;
+  max-width: min(1480px, 100%);
   width: 100%;
+  margin-left: auto;
+  margin-right: auto;
   box-sizing: border-box;
-  padding-left: clamp(12px, 2.5vw, 32px);
-  padding-right: clamp(12px, 2.5vw, 32px);
+  padding-left: clamp(20px, 5vw, 56px);
+  padding-right: clamp(20px, 5vw, 56px);
 }
 
 #main.jm-main--home .page,
