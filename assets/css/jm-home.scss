@@ -136,11 +136,6 @@
 
 .jm-main p {
   margin: 0 0 0.95rem;
-
-  a {
-    text-decoration: underline;
-    text-underline-offset: 2px;
-  }
 }
 
 .jm-news-list {
@@ -203,16 +198,6 @@
   margin: 0 0 0.35rem;
   color: #4f5864;
   font-size: 0.95rem;
-
-  a {
-    color: inherit;
-    text-decoration: underline;
-    text-underline-offset: 2px;
-  }
-
-  a:hover {
-    color: #0d47a1;
-  }
 }
 
 .jm-pub-venue-line {
@@ -261,16 +246,6 @@
 .jm-simple-note {
   color: #4f5864;
   font-size: 0.95rem;
-
-  a {
-    color: inherit;
-    text-decoration: underline;
-    text-underline-offset: 2px;
-  }
-
-  a:hover {
-    color: #0d47a1;
-  }
 }
 
 .jm-simple-note {

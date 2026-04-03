@@ -2,6 +2,10 @@
 permalink: /
 title:
 author_profile: false
+redirect_from:
+  - /cv/
+  - /cv.html
+  - /resume
 ---
 
 <div class="jm-homepage" markdown="0">
@@ -146,7 +150,7 @@ author_profile: false
           <span>Sep. 2024 - Present</span>
         </div>
         <div class="jm-simple-sub">M.Eng. in Electronic Information · Guangzhou, China · GPA 80/100</div>
-        <div class="jm-simple-note">Supervisors: Prof. <a href="https://scholar.google.com/citations?user=aNvkklMAAAAJ&amp;hl=en" target="_blank" rel="noopener noreferrer">Tianshui Chen</a> (research) and Prof. <a href="https://scholar.google.com/citations?user=soX8e10AAAAJ&amp;hl=en" target="_blank" rel="noopener noreferrer">Chunmei Qing</a> (academic)</div>
+        <div class="jm-simple-note">Supervisors: <a href="https://scholar.google.com/citations?user=aNvkklMAAAAJ&amp;hl=en" target="_blank" rel="noopener noreferrer">Prof. Tianshui Chen</a> (research) and <a href="https://scholar.google.com/citations?user=soX8e10AAAAJ&amp;hl=en" target="_blank" rel="noopener noreferrer">Prof. Chunmei Qing</a> (academic)</div>
       </div>
 
       <div class="jm-simple-item">
