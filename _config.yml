@@ -13,9 +13,11 @@ title                    : "Jianman Lin"
 title_separator          : "-"
 name                     : &name "Jianman Lin"
 description              : &description "Jianman Lin — M.Eng. @ SCUT; research in computer vision, generative AI, and controllable image synthesis."
+# User site (short URL): repo must be named exactly jianmanlincjx.github.io on GitHub.
+# If you keep repo name linjianman.github.io, set baseurl back to "/linjianman.github.io".
 url                      : https://jianmanlincjx.github.io
-baseurl                  : "/linjianman.github.io"
-repository               : "jianmanlincjx/linjianman.github.io"
+baseurl                  : ""
+repository               : "jianmanlincjx/jianmanlincjx.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
@@ -28,7 +30,7 @@ author:
   bio              : "M.Eng. in Electronic Information @ SCUT. Research interests: computer vision, generative AI, controllable image synthesis."
   location         : "Guangzhou, China"
   employer         : "South China University of Technology"
-  uri              : "https://jianmanlincjx.github.io/linjianman.github.io/"
+  uri              : "https://jianmanlincjx.github.io/"
   email            : "linjianmancjx@gmail.com" 
 
   # Academic websites

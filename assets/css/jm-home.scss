@@ -136,6 +136,11 @@
 
 .jm-main p {
   margin: 0 0 0.95rem;
+
+  a {
+    text-decoration: underline;
+    text-underline-offset: 2px;
+  }
 }
 
 .jm-news-list {
@@ -198,31 +203,40 @@
   margin: 0 0 0.35rem;
   color: #4f5864;
   font-size: 0.95rem;
+
+  a {
+    color: inherit;
+    text-decoration: underline;
+    text-underline-offset: 2px;
+  }
+
+  a:hover {
+    color: #0d47a1;
+  }
 }
 
-.jm-pub-links {
-  margin: 0.45rem 0 0.4rem;
+.jm-pub-venue-line {
+  margin: 0 0 0.35rem;
+  color: #4f5864;
+  font-size: 0.95rem;
+  line-height: 1.55;
+}
+
+.jm-pub-links-inline {
+  display: inline;
+  margin-left: 0.35rem;
   font-size: 0.94rem;
+  font-weight: 600;
+  white-space: nowrap;
 }
 
-.jm-pub-links a {
-  margin-right: 0.85rem;
+.jm-pub-links-inline a {
+  margin-left: 0.75rem;
   text-decoration: none;
-  font-weight: 600;
 }
 
-.jm-pub-points {
-  margin: 0.25rem 0 0;
-  padding-left: 1.1rem;
-}
-
-.jm-pub-points li {
-  margin-bottom: 0.2rem;
-}
-
-.jm-more-link {
-  margin-top: 0.35rem;
-  font-weight: 600;
+.jm-pub-links-inline a:first-of-type {
+  margin-left: 0.5rem;
 }
 
 .jm-simple-item {
@@ -247,13 +261,23 @@
 .jm-simple-note {
   color: #4f5864;
   font-size: 0.95rem;
+
+  a {
+    color: inherit;
+    text-decoration: underline;
+    text-underline-offset: 2px;
+  }
+
+  a:hover {
+    color: #0d47a1;
+  }
 }
 
 .jm-simple-note {
   margin-top: 0.15rem;
 }
 
-.jm-exp-cn {
+.jm-exp-note {
   margin: 0.5rem 0 0;
   font-size: 0.98rem;
   line-height: 1.75;
@@ -294,6 +318,16 @@
     font-size: 1.5rem;
   }
 
+  .jm-pub-links-inline {
+    white-space: normal;
+    display: block;
+    margin: 0.35rem 0 0;
+  }
+
+  .jm-pub-links-inline a:first-of-type {
+    margin-left: 0;
+  }
+
   .jm-simple-head {
     display: block;
   }
@@ -323,6 +357,7 @@
   .jm-contact li,
   .jm-news-list span,
   .jm-pub-meta,
+  .jm-pub-venue-line,
   .jm-simple-sub,
   .jm-simple-note,
   .jm-simple-head span {

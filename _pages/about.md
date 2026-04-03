@@ -20,7 +20,6 @@ author_profile: false
         <li><a href="mailto:linjianmancjx@gmail.com">Email</a></li>
         <li><a href="https://scholar.google.com/citations?user=ayk7FWMAAAAJ&amp;hl=en" target="_blank" rel="noopener noreferrer">Google Scholar</a></li>
         <li><a href="https://github.com/jianmanlincjx" target="_blank" rel="noopener noreferrer">GitHub</a></li>
-        <li><a href="{{ '/files/Jianman_Lin_CV.pdf' | relative_url }}">CV (PDF)</a></li>
       </ul>
     </div>
   </aside>
@@ -29,7 +28,7 @@ author_profile: false
     <section class="jm-block" id="about">
       <h2 class="jm-block-title">About Me</h2>
       <p>
-        I received my bachelor's degree from Guangdong University of Technology. I am currently a Master's student at South China University of Technology (SCUT), supervised by Tianshui Chen and Chunmei Qing. My research focuses on Computer Vision, Generative AI, and Controllable Image Synthesis, with work recognized as a Highlight at CVPR and published in leading journals such as International Journal of Computer Vision (IJCV) and IEEE Transactions on Image Processing (TIP).
+        I received my bachelor's degree from Guangdong University of Technology. I am currently a Master's student at South China University of Technology (SCUT), supervised by <a href="https://scholar.google.com/citations?user=aNvkklMAAAAJ&amp;hl=en" target="_blank" rel="noopener noreferrer">Tianshui Chen</a> and <a href="https://scholar.google.com/citations?user=soX8e10AAAAJ&amp;hl=en" target="_blank" rel="noopener noreferrer">Chunmei Qing</a>. My research focuses on Computer Vision, Generative AI, and Controllable Image Synthesis, with work recognized as a Highlight at CVPR and published in leading journals such as International Journal of Computer Vision (IJCV) and IEEE Transactions on Image Processing (TIP).
       </p>
       <p>
         I am actively seeking opportunities for academic collaboration and research internships. Currently, I work as an Algorithm Research Intern at X-Era AI, where I lead the development of a digital human livestreaming system, an intelligent home solution (Feiliu AI mini-program), and embodied AI systems.
@@ -59,16 +58,14 @@ author_profile: false
           </a>
           <div class="jm-pub-body">
             <h3 class="jm-pub-title">Neural Scene Designer: Self-Styled Semantic Image Manipulation</h3>
-            <p class="jm-pub-meta"><strong>Jianman Lin</strong>, Tianshui Chen, Chunmei Qing, Zhijing Yang, Shuangping Huang, Yuheng Ren, Liang Lin.</p>
-            <p class="jm-pub-meta"><strong>IEEE Transactions on Image Processing (TIP)</strong>, 2025.</p>
-            <p class="jm-pub-links">
-              <a href="https://github.com/jianmanlincjx" target="_blank" rel="noopener noreferrer">Code</a>
-              <a href="{{ '/publications/neural-scene-designer-tip/' | relative_url }}">Page</a>
+            <p class="jm-pub-meta"><strong>Jianman Lin</strong>, <a href="https://scholar.google.com/citations?user=aNvkklMAAAAJ&amp;hl=en" target="_blank" rel="noopener noreferrer">Tianshui Chen</a>, <a href="https://scholar.google.com/citations?user=soX8e10AAAAJ&amp;hl=en" target="_blank" rel="noopener noreferrer">Chunmei Qing</a>, Zhijing Yang, Shuangping Huang, Yuheng Ren, Liang Lin.</p>
+            <p class="jm-pub-venue-line">
+              <strong>IEEE Transactions on Image Processing (TIP)</strong>, 2025.
+              <span class="jm-pub-links-inline">
+                <a href="https://github.com/jianmanlincjx" target="_blank" rel="noopener noreferrer">Code</a>
+                <a href="{{ '/publications/neural-scene-designer-tip/' | relative_url }}">Page</a>
+              </span>
             </p>
-            <ul class="jm-pub-points">
-              <li>Self-supervised style modeling from intra-image consistency.</li>
-              <li>Diffusion framework with dual parallel cross-attention for text/style control.</li>
-            </ul>
           </div>
         </article>
 
@@ -78,16 +75,14 @@ author_profile: false
           </a>
           <div class="jm-pub-body">
             <h3 class="jm-pub-title">Geometry-Editable and Appearance-Preserving Object Composition</h3>
-            <p class="jm-pub-meta"><strong>Jianman Lin</strong>, Haojie Li, Chunmei Qing, Zhijing Yang, Liang Lin, Tianshui Chen.</p>
-            <p class="jm-pub-meta"><strong>Under review</strong>.</p>
-            <p class="jm-pub-links">
-              <a href="https://github.com/jianmanlincjx" target="_blank" rel="noopener noreferrer">Code</a>
-              <a href="{{ '/publications/ijcv-2025-dagd/' | relative_url }}">Page</a>
+            <p class="jm-pub-meta"><strong>Jianman Lin</strong>, Haojie Li, <a href="https://scholar.google.com/citations?user=soX8e10AAAAJ&amp;hl=en" target="_blank" rel="noopener noreferrer">Chunmei Qing</a>, Zhijing Yang, Liang Lin, <a href="https://scholar.google.com/citations?user=aNvkklMAAAAJ&amp;hl=en" target="_blank" rel="noopener noreferrer">Tianshui Chen</a>.</p>
+            <p class="jm-pub-venue-line">
+              <strong>Under review</strong>.
+              <span class="jm-pub-links-inline">
+                <a href="https://github.com/jianmanlincjx" target="_blank" rel="noopener noreferrer">Code</a>
+                <a href="{{ '/publications/ijcv-2025-dagd/' | relative_url }}">Page</a>
+              </span>
             </p>
-            <ul class="jm-pub-points">
-              <li>Geometry-first, appearance-follows disentanglement for controllable composition.</li>
-              <li>Preserves fine-grained texture under geometric transformation.</li>
-            </ul>
           </div>
         </article>
       </div>
@@ -101,16 +96,14 @@ author_profile: false
           </a>
           <div class="jm-pub-body">
             <h3 class="jm-pub-title">Learning Adaptive Spatial Coherent Correlations for Speech-Preserving Facial Expression Manipulation</h3>
-            <p class="jm-pub-meta">Tianshui Chen, <strong>Jianman Lin</strong>, Zhijing Yang, Chunmei Qing, Liang Lin.</p>
-            <p class="jm-pub-meta"><strong>CVPR 2024</strong> · Highlight (Top 2.8%).</p>
-            <p class="jm-pub-links">
-              <a href="https://github.com/jianmanlincjx" target="_blank" rel="noopener noreferrer">Code</a>
-              <a href="{{ '/publications/cvpr-2024-asccl/' | relative_url }}">Page</a>
+            <p class="jm-pub-meta"><a href="https://scholar.google.com/citations?user=aNvkklMAAAAJ&amp;hl=en" target="_blank" rel="noopener noreferrer">Tianshui Chen</a>, <strong>Jianman Lin</strong>, Zhijing Yang, <a href="https://scholar.google.com/citations?user=soX8e10AAAAJ&amp;hl=en" target="_blank" rel="noopener noreferrer">Chunmei Qing</a>, Liang Lin.</p>
+            <p class="jm-pub-venue-line">
+              <strong>CVPR 2024</strong> · Highlight (Top 2.8%).
+              <span class="jm-pub-links-inline">
+                <a href="https://github.com/jianmanlincjx" target="_blank" rel="noopener noreferrer">Code</a>
+                <a href="{{ '/publications/cvpr-2024-asccl/' | relative_url }}">Page</a>
+              </span>
             </p>
-            <ul class="jm-pub-points">
-              <li>Models spatial-coherent correlations with minimal paired data.</li>
-              <li>Improves fine-grained mouth animation preservation.</li>
-            </ul>
           </div>
         </article>
 
@@ -120,33 +113,17 @@ author_profile: false
           </a>
           <div class="jm-pub-body">
             <h3 class="jm-pub-title">Contrastive Decoupled Representation Learning and Regularization for Speech-Preserving Facial Expression Manipulation</h3>
-            <p class="jm-pub-meta">Tianshui Chen, <strong>Jianman Lin</strong>*, Zhijing Yang, Chunmei Qing, Yukai Shi, Liang Lin.</p>
-            <p class="jm-pub-meta"><strong>International Journal of Computer Vision (IJCV)</strong>, 2025.</p>
-            <p class="jm-pub-links">
-              <a href="https://github.com/jianmanlincjx" target="_blank" rel="noopener noreferrer">Code</a>
-              <a href="{{ '/publications/ijcv-2025-cdrl/' | relative_url }}">Page</a>
+            <p class="jm-pub-meta"><a href="https://scholar.google.com/citations?user=aNvkklMAAAAJ&amp;hl=en" target="_blank" rel="noopener noreferrer">Tianshui Chen</a>, <strong>Jianman Lin</strong>*, Zhijing Yang, <a href="https://scholar.google.com/citations?user=soX8e10AAAAJ&amp;hl=en" target="_blank" rel="noopener noreferrer">Chunmei Qing</a>, Yukai Shi, Liang Lin.</p>
+            <p class="jm-pub-venue-line">
+              <strong>International Journal of Computer Vision (IJCV)</strong>, 2025.
+              <span class="jm-pub-links-inline">
+                <a href="https://github.com/jianmanlincjx" target="_blank" rel="noopener noreferrer">Code</a>
+                <a href="{{ '/publications/ijcv-2025-cdrl/' | relative_url }}">Page</a>
+              </span>
             </p>
-            <ul class="jm-pub-points">
-              <li>Decouples content and emotion using audio and VLM priors.</li>
-              <li>Improves expression transfer accuracy and lip synchronization.</li>
-            </ul>
           </div>
         </article>
       </div>
-
-      <p class="jm-more-link"><a href="{{ '/publications/' | relative_url }}">View full publication list</a></p>
-    </section>
-
-    <section class="jm-block" id="research">
-      <h2 class="jm-block-title">Research Summary</h2>
-      <p>
-        <strong>Research interests:</strong> computer vision, generative AI, controllable image synthesis, and
-        multimodal understanding for visual generation.
-      </p>
-      <p>
-        <strong>Research trajectory:</strong> from representation learning for speech-preserving facial expression manipulation
-        to diffusion-based disentangled editing for geometry and appearance control.
-      </p>
     </section>
 
     <section class="jm-block" id="experience">
@@ -157,7 +134,7 @@ author_profile: false
           <span>Jul. 2024 - Present</span>
         </div>
         <div class="jm-simple-sub">Guangzhou, China</div>
-        <p class="jm-exp-cn">作为核心算法人员参与了数字人直播-智能家具-具身智能项目。</p>
+        <p class="jm-exp-note">As a core algorithm contributor, I work on digital-human livestreaming, intelligent home products, and embodied AI systems.</p>
       </div>
     </section>
 
@@ -169,7 +146,7 @@ author_profile: false
           <span>Sep. 2024 - Present</span>
         </div>
         <div class="jm-simple-sub">M.Eng. in Electronic Information · Guangzhou, China · GPA 80/100</div>
-        <div class="jm-simple-note">Supervisors: Prof. Tianshui Chen (research) and Prof. Chunmei Qing (academic)</div>
+        <div class="jm-simple-note">Supervisors: Prof. <a href="https://scholar.google.com/citations?user=aNvkklMAAAAJ&amp;hl=en" target="_blank" rel="noopener noreferrer">Tianshui Chen</a> (research) and Prof. <a href="https://scholar.google.com/citations?user=soX8e10AAAAJ&amp;hl=en" target="_blank" rel="noopener noreferrer">Chunmei Qing</a> (academic)</div>
       </div>
 
       <div class="jm-simple-item">
