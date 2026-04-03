@@ -1,166 +1,200 @@
 ---
 permalink: /
-title: "Home"
-author_profile: true
+title:
+author_profile: false
 ---
 
 {% include base_path %}
 
-<div class="jm-home" markdown="0">
-  <p class="jm-lead"><strong>M.Eng. in Electronic Information</strong>, South China University of Technology (SCUT) · Guangzhou, China</p>
+<div class="jm-homepage" markdown="0">
+  <aside class="jm-sidebar">
+    <div class="jm-profile-card">
+      {% if site.author.avatar %}
+        <img class="jm-avatar" src="{{ base_path }}/images/{{ site.author.avatar }}" alt="{{ site.author.name }}">
+      {% else %}
+        <div class="jm-avatar jm-avatar--placeholder">JL</div>
+      {% endif %}
 
-  <ul class="jm-inline-nav">
-    <li><a href="#about">About</a></li>
-    <li><a href="#news">News</a></li>
-    <li><a href="#works">Selected works</a></li>
-    <li><a href="#research">Research</a></li>
-    <li><a href="#experience">Experience</a></li>
-    <li><a href="#education">Education</a></li>
-    <li><a href="{{ base_path }}/publications/">All publications</a></li>
-    <li><a href="{{ base_path }}/files/Jianman_Lin_CV.pdf">CV (PDF)</a></li>
-  </ul>
+      <h1 class="jm-name">Jianman Lin</h1>
+      <p class="jm-role">M.Eng. student at SCUT, advised by Prof. Tianshui Chen and Prof. Chunmei Qing</p>
 
-  <section class="jm-section" id="about">
-    <h2 class="jm-section-title">About me</h2>
-    <p class="jm-lead">
-      I am a master's student at the School of Electronic and Information Engineering, SCUT, advised by
-      <strong>Prof. Tianshui Chen</strong> (research) and <strong>Prof. Chunmei Qing</strong> (academic).
-      I received my B.Eng. in Industrial Engineering from Guangdong University of Technology (GDUT).
-      My research interests include <strong>computer vision</strong>, <strong>generative AI</strong>, and
-      <strong>controllable image synthesis</strong>.
-    </p>
-  </section>
-
-  <section class="jm-section" id="news">
-    <h2 class="jm-section-title">News</h2>
-    <ul class="jm-news">
-      <li><strong>2024 — present</strong> · Algorithm researcher intern at ExpanderaAI (AI Interior Design Lab), Guangzhou.</li>
-      <li><strong>Sep. 2024</strong> · Started M.Eng. at SCUT (Electronic Information).</li>
-      <li><strong>Jun. 2024</strong> · B.Eng. from GDUT (Industrial Engineering), GPA 87.2/100.</li>
-    </ul>
-  </section>
-
-  <section class="jm-section" id="works">
-    <h2 class="jm-section-title">Selected works</h2>
-    <div class="jm-works">
-      <article class="jm-work-card">
-        <a href="https://arxiv.org/pdf/2509.01405" class="jm-work-thumb" target="_blank" rel="noopener noreferrer">
-          <img src="{{ base_path }}/images/papers/TIP_2025_NSD.png" alt="Neural Scene Designer teaser">
-        </a>
-        <div class="jm-work-body">
-          <p class="jm-work-meta"><span class="jm-badge">TIP 2025</span> First author</p>
-          <h3 class="jm-work-title">Neural Scene Designer: Self-Styled Semantic Image Manipulation</h3>
-          <p class="jm-work-meta">IEEE Transactions on Image Processing, Vol. 34, pp. 6577–6588, 2025.</p>
-          <p class="jm-work-links">
-            <a href="https://arxiv.org/pdf/2509.01405" target="_blank" rel="noopener noreferrer">Paper</a>
-            <a href="{{ base_path }}/publications/neural-scene-designer-tip/">Page</a>
-          </p>
-        </div>
-      </article>
-
-      <article class="jm-work-card">
-        <a href="https://openaccess.thecvf.com/content/CVPR2024/papers/Chen_Learning_Adaptive_Spatial_Coherent_Correlations_for_Speech-Preserving_Facial_Expression_Manipulation_CVPR_2024_paper.pdf" class="jm-work-thumb" target="_blank" rel="noopener noreferrer">
-          <img src="{{ base_path }}/images/papers/CVPR_2024_ASCCL.png" alt="ASCCL CVPR 2024 teaser">
-        </a>
-        <div class="jm-work-body">
-          <p class="jm-work-meta"><span class="jm-badge">CVPR 2024</span> Highlight (top 2.8%)</p>
-          <h3 class="jm-work-title">Learning Adaptive Spatial Coherent Correlations for Speech-Preserving Facial Expression Manipulation</h3>
-          <p class="jm-work-meta">Tianshui Chen, <strong>Jianman Lin</strong>, et al.</p>
-          <p class="jm-work-links">
-            <a href="https://openaccess.thecvf.com/content/CVPR2024/papers/Chen_Learning_Adaptive_Spatial_Coherent_Correlations_for_Speech-Preserving_Facial_Expression_Manipulation_CVPR_2024_paper.pdf" target="_blank" rel="noopener noreferrer">Paper</a>
-            <a href="{{ base_path }}/publications/cvpr-2024-asccl/">Page</a>
-          </p>
-        </div>
-      </article>
-
-      <article class="jm-work-card">
-        <a href="https://arxiv.org/pdf/2504.05672" class="jm-work-thumb" target="_blank" rel="noopener noreferrer">
-          <img src="{{ base_path }}/images/papers/IJCV_2025_CDRL.png" alt="CDRL IJCV teaser">
-        </a>
-        <div class="jm-work-body">
-          <p class="jm-work-meta"><span class="jm-badge">IJCV 2025</span> Co-first author</p>
-          <h3 class="jm-work-title">Contrastive Decoupled Representation Learning and Regularization for Speech-Preserving Facial Expression Manipulation</h3>
-          <p class="jm-work-meta">Tianshui Chen, <strong>Jianman Lin</strong>*, et al. · Vol. 133, pp. 3822–3838, 2025.</p>
-          <p class="jm-work-links">
-            <a href="https://arxiv.org/pdf/2504.05672" target="_blank" rel="noopener noreferrer">Paper</a>
-            <a href="{{ base_path }}/publications/ijcv-2025-cdrl/">Page</a>
-          </p>
-        </div>
-      </article>
-
-      <article class="jm-work-card">
-        <a href="{{ base_path }}/publications/ijcv-2025-dagd/" class="jm-work-thumb">
-          <img src="{{ base_path }}/images/papers/underreview_2026_DAGD.png" alt="DAGD composition teaser">
-        </a>
-        <div class="jm-work-body">
-          <p class="jm-work-meta"><span class="jm-badge">Preprint</span> First author</p>
-          <h3 class="jm-work-title">Geometry-Editable and Appearance-Preserving Object Composition</h3>
-          <p class="jm-work-meta"><strong>Jianman Lin</strong>, Haojie Li, et al. · Under review.</p>
-          <p class="jm-work-links">
-            <a href="https://arxiv.org/pdf/2505.20914" target="_blank" rel="noopener noreferrer">arXiv</a>
-            <a href="{{ base_path }}/publications/ijcv-2025-dagd/">Page</a>
-          </p>
-        </div>
-      </article>
-
-      <article class="jm-work-card">
-        <a href="{{ base_path }}/publications/tpami-stcc/" class="jm-work-thumb" style="text-decoration:none;">
-          <div style="display:flex;align-items:center;justify-content:center;min-height:100%;background:linear-gradient(135deg,#eef4ff,#f7f7f7);">
-            <span style="font-size:0.9rem;color:#445;padding:1rem;text-align:center;">Spatial-temporal coherent correlations<br>(figure TBA)</span>
-          </div>
-        </a>
-        <div class="jm-work-body">
-          <p class="jm-work-meta"><span class="jm-badge">T-PAMI</span> Major revision · Co-first author</p>
-          <h3 class="jm-work-title">Learning Spatial-Temporal Coherent Correlations for Speech-Preserving Facial Expression Manipulation</h3>
-          <p class="jm-work-meta">Tianshui Chen, <strong>Jianman Lin</strong>*, et al.</p>
-          <p class="jm-work-links">
-            <a href="{{ base_path }}/publications/tpami-stcc/">Page</a>
-          </p>
-        </div>
-      </article>
+      <ul class="jm-contact">
+        <li>Guangzhou, China</li>
+        <li><a href="mailto:linjianmancjx@gmail.com">Email</a></li>
+        <li><a href="https://scholar.google.com/citations?user=ayk7FWMAAAAJ&amp;hl=en" target="_blank" rel="noopener noreferrer">Google Scholar</a></li>
+        <li><a href="https://github.com/jianmanlincjx" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+        <li><a href="{{ base_path }}/files/Jianman_Lin_CV.pdf">CV (PDF)</a></li>
+      </ul>
     </div>
-  </section>
+  </aside>
 
-  <section class="jm-section" id="research">
-    <h2 class="jm-section-title">Research summary</h2>
-    <p class="jm-lead">
-      <strong>Interests:</strong> computer vision, generative AI, and controllable image synthesis.<br>
-      <strong>Trajectory:</strong> from <em>speech-preserving facial expression manipulation</em> (representation learning under data scarcity)
-      to <em>generalizable diffusion-based editing</em> (disentanglement for the trade-off between editability and visual consistency).
-    </p>
-  </section>
+  <main class="jm-main">
+    <section class="jm-block" id="about">
+      <h2 class="jm-block-title">About Me</h2>
+      <p>
+        I am a master's student in Electronic Information at the South China University of Technology (SCUT),
+        supervised by <strong>Prof. Tianshui Chen</strong> and <strong>Prof. Chunmei Qing</strong>. My research focuses on
+        <strong>computer vision</strong>, <strong>generative AI</strong>, and <strong>controllable image synthesis</strong>.
+      </p>
+      <p>
+        My recent work spans two lines: speech-preserving facial expression manipulation under data scarcity,
+        and diffusion-based controllable image editing that balances editability with appearance consistency.
+        I am also interested in practical vision systems for structured scene understanding and intelligent design.
+      </p>
+      <p>
+        Before SCUT, I received my B.Eng. in Industrial Engineering from Guangdong University of Technology (GDUT),
+        where I built my foundation in computer vision, optimization, and data-driven modeling.
+      </p>
+    </section>
 
-  <section class="jm-section" id="experience">
-    <h2 class="jm-section-title">Work experience</h2>
-    <ul class="jm-timeline">
-      <li>
-        <span class="jm-tl-date">Jul. 2024 — Present</span>
-        <p class="jm-tl-title">Algorithm researcher intern · ExpanderaAI, AI Interior Design Lab</p>
-        <p class="jm-tl-sub">Guangzhou, China</p>
-        <p class="jm-lead" style="margin-top:0.5rem;font-size:0.95rem;">
-          <strong>MLLM-driven intelligent interior design.</strong> Led a VLM-based structured floor-plan reconstruction pipeline from sparse views (4 images),
-          including a 500k+ image data processing workflow for paired data. Improved spatial reasoning via multi-stage curriculum reinforcement learning,
-          reaching centimeter-level dimension error <strong>&lt; 3 cm</strong> for single-space plans. Contributed to the end-to-end MLLM pipeline:
-          floor-plan perception and automated layout generation with physical and aesthetic priors.
-        </p>
-      </li>
-    </ul>
-  </section>
+    <section class="jm-block" id="news">
+      <h2 class="jm-block-title">News</h2>
+      <ul class="jm-news-list">
+        <li><span>2025</span> Neural Scene Designer was published in <strong>IEEE TIP</strong>.</li>
+        <li><span>2025</span> CDRL was published in <strong>IJCV</strong>.</li>
+        <li><span>2024</span> ASCCL was selected as a <strong>CVPR 2024 Highlight</strong> (Top 2.8%).</li>
+        <li><span>2024</span> Joined <strong>ExpanderaAI</strong> as an algorithm researcher intern.</li>
+        <li><span>2024</span> Started M.Eng. study at <strong>SCUT</strong>.</li>
+      </ul>
+    </section>
 
-  <section class="jm-section" id="education">
-    <h2 class="jm-section-title">Education</h2>
-    <ul class="jm-timeline">
-      <li>
-        <span class="jm-tl-date">Sep. 2024 — Present</span>
-        <p class="jm-tl-title">South China University of Technology (SCUT)</p>
-        <p class="jm-tl-sub">M.Eng. in Electronic Information · Guangzhou, China · GPA 80/100</p>
-        <p class="jm-tl-sub">Supervisors: Prof. Tianshui Chen (research) &amp; Prof. Chunmei Qing (academic)</p>
-      </li>
-      <li>
-        <span class="jm-tl-date">Sep. 2020 — Jun. 2024</span>
-        <p class="jm-tl-title">Guangdong University of Technology (GDUT)</p>
-        <p class="jm-tl-sub">B.Eng. in Industrial Engineering · Guangzhou, China · GPA 87.2/100</p>
-      </li>
-    </ul>
-  </section>
+    <section class="jm-block" id="publications">
+      <h2 class="jm-block-title">Selected Publications</h2>
+
+      <div class="jm-pub-group">
+        <div class="jm-pub-group-title">Controllable Image Editing</div>
+
+        <article class="jm-pub-item">
+          <a class="jm-pub-thumb" href="https://arxiv.org/pdf/2509.01405" target="_blank" rel="noopener noreferrer">
+            <img src="{{ base_path }}/images/papers/TIP_2025_NSD.png" alt="TIP 2025 NSD">
+          </a>
+          <div class="jm-pub-body">
+            <h3 class="jm-pub-title">Neural Scene Designer: Self-Styled Semantic Image Manipulation</h3>
+            <p class="jm-pub-meta"><strong>Jianman Lin</strong>, Tianshui Chen, Chunmei Qing, Zhijing Yang, Shuangping Huang, Yuheng Ren, Liang Lin.</p>
+            <p class="jm-pub-meta"><strong>IEEE Transactions on Image Processing (TIP)</strong>, 2025.</p>
+            <p class="jm-pub-links">
+              <a href="https://arxiv.org/pdf/2509.01405" target="_blank" rel="noopener noreferrer">Paper</a>
+              <a href="{{ base_path }}/publications/neural-scene-designer-tip/">Page</a>
+            </p>
+            <ul class="jm-pub-points">
+              <li>Self-supervised style modeling from intra-image consistency.</li>
+              <li>Diffusion framework with dual parallel cross-attention for text/style control.</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="jm-pub-item">
+          <a class="jm-pub-thumb" href="https://arxiv.org/pdf/2505.20914" target="_blank" rel="noopener noreferrer">
+            <img src="{{ base_path }}/images/papers/underreview_2026_DAGD.png" alt="DAGD">
+          </a>
+          <div class="jm-pub-body">
+            <h3 class="jm-pub-title">Geometry-Editable and Appearance-Preserving Object Composition</h3>
+            <p class="jm-pub-meta"><strong>Jianman Lin</strong>, Haojie Li, Chunmei Qing, Zhijing Yang, Liang Lin, Tianshui Chen.</p>
+            <p class="jm-pub-meta"><strong>Under review</strong>.</p>
+            <p class="jm-pub-links">
+              <a href="https://arxiv.org/pdf/2505.20914" target="_blank" rel="noopener noreferrer">arXiv</a>
+              <a href="{{ base_path }}/publications/ijcv-2025-dagd/">Page</a>
+            </p>
+            <ul class="jm-pub-points">
+              <li>Geometry-first, appearance-follows disentanglement for controllable composition.</li>
+              <li>Preserves fine-grained texture under geometric transformation.</li>
+            </ul>
+          </div>
+        </article>
+      </div>
+
+      <div class="jm-pub-group">
+        <div class="jm-pub-group-title">Speech-Preserving Facial Expression Manipulation</div>
+
+        <article class="jm-pub-item">
+          <a class="jm-pub-thumb" href="https://openaccess.thecvf.com/content/CVPR2024/papers/Chen_Learning_Adaptive_Spatial_Coherent_Correlations_for_Speech-Preserving_Facial_Expression_Manipulation_CVPR_2024_paper.pdf" target="_blank" rel="noopener noreferrer">
+            <img src="{{ base_path }}/images/papers/CVPR_2024_ASCCL.png" alt="CVPR 2024 ASCCL">
+          </a>
+          <div class="jm-pub-body">
+            <h3 class="jm-pub-title">Learning Adaptive Spatial Coherent Correlations for Speech-Preserving Facial Expression Manipulation</h3>
+            <p class="jm-pub-meta">Tianshui Chen, <strong>Jianman Lin</strong>, Zhijing Yang, Chunmei Qing, Liang Lin.</p>
+            <p class="jm-pub-meta"><strong>CVPR 2024</strong> · Highlight (Top 2.8%).</p>
+            <p class="jm-pub-links">
+              <a href="https://openaccess.thecvf.com/content/CVPR2024/papers/Chen_Learning_Adaptive_Spatial_Coherent_Correlations_for_Speech-Preserving_Facial_Expression_Manipulation_CVPR_2024_paper.pdf" target="_blank" rel="noopener noreferrer">Paper</a>
+              <a href="{{ base_path }}/publications/cvpr-2024-asccl/">Page</a>
+            </p>
+            <ul class="jm-pub-points">
+              <li>Models spatial-coherent correlations with minimal paired data.</li>
+              <li>Improves fine-grained mouth animation preservation.</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="jm-pub-item">
+          <a class="jm-pub-thumb" href="https://arxiv.org/pdf/2504.05672" target="_blank" rel="noopener noreferrer">
+            <img src="{{ base_path }}/images/papers/IJCV_2025_CDRL.png" alt="IJCV 2025 CDRL">
+          </a>
+          <div class="jm-pub-body">
+            <h3 class="jm-pub-title">Contrastive Decoupled Representation Learning and Regularization for Speech-Preserving Facial Expression Manipulation</h3>
+            <p class="jm-pub-meta">Tianshui Chen, <strong>Jianman Lin</strong>*, Zhijing Yang, Chunmei Qing, Yukai Shi, Liang Lin.</p>
+            <p class="jm-pub-meta"><strong>International Journal of Computer Vision (IJCV)</strong>, 2025.</p>
+            <p class="jm-pub-links">
+              <a href="https://arxiv.org/pdf/2504.05672" target="_blank" rel="noopener noreferrer">Paper</a>
+              <a href="{{ base_path }}/publications/ijcv-2025-cdrl/">Page</a>
+            </p>
+            <ul class="jm-pub-points">
+              <li>Decouples content and emotion using audio and VLM priors.</li>
+              <li>Improves expression transfer accuracy and lip synchronization.</li>
+            </ul>
+          </div>
+        </article>
+      </div>
+
+      <p class="jm-more-link"><a href="{{ base_path }}/publications/">View full publication list</a></p>
+    </section>
+
+    <section class="jm-block" id="research">
+      <h2 class="jm-block-title">Research Summary</h2>
+      <p>
+        <strong>Research interests:</strong> computer vision, generative AI, controllable image synthesis, and
+        multimodal understanding for visual generation.
+      </p>
+      <p>
+        <strong>Research trajectory:</strong> from representation learning for speech-preserving facial expression manipulation
+        to diffusion-based disentangled editing for geometry and appearance control.
+      </p>
+    </section>
+
+    <section class="jm-block" id="experience">
+      <h2 class="jm-block-title">Experience</h2>
+      <div class="jm-simple-item">
+        <div class="jm-simple-head">
+          <strong>Algorithm Researcher Intern, ExpanderaAI</strong>
+          <span>Jul. 2024 - Present</span>
+        </div>
+        <div class="jm-simple-sub">AI Interior Design Lab · Guangzhou, China</div>
+        <ul class="jm-pub-points">
+          <li>Led VLM-based structured floor-plan reconstruction from sparse image inputs.</li>
+          <li>Built a 500k+ image processing pipeline for paired data construction.</li>
+          <li>Improved spatial reasoning with curriculum RL to reach &lt; 3 cm dimension error.</li>
+          <li>Contributed to MLLM-driven interior layout generation with physical and aesthetic priors.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="jm-block" id="education">
+      <h2 class="jm-block-title">Education</h2>
+      <div class="jm-simple-item">
+        <div class="jm-simple-head">
+          <strong>South China University of Technology (SCUT)</strong>
+          <span>Sep. 2024 - Present</span>
+        </div>
+        <div class="jm-simple-sub">M.Eng. in Electronic Information · Guangzhou, China · GPA 80/100</div>
+        <div class="jm-simple-note">Supervisors: Prof. Tianshui Chen (research) and Prof. Chunmei Qing (academic)</div>
+      </div>
+
+      <div class="jm-simple-item">
+        <div class="jm-simple-head">
+          <strong>Guangdong University of Technology (GDUT)</strong>
+          <span>Sep. 2020 - Jun. 2024</span>
+        </div>
+        <div class="jm-simple-sub">B.Eng. in Industrial Engineering · Guangzhou, China · GPA 87.2/100</div>
+      </div>
+    </section>
+  </main>
 </div>
