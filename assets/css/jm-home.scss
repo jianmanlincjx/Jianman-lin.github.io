@@ -54,7 +54,7 @@
 
 .jm-homepage {
   display: grid;
-  grid-template-columns: minmax(200px, 240px) minmax(0, 1fr);
+  grid-template-columns: minmax(240px, 300px) minmax(0, 1fr);
   gap: clamp(1.25rem, 3vw, 2.75rem);
   align-items: start;
   margin-top: 0.5rem;
@@ -77,8 +77,8 @@
 }
 
 .jm-avatar {
-  width: 132px;
-  height: 132px;
+  width: 168px;
+  height: 168px;
   border-radius: 50%;
   object-fit: cover;
   display: block;
@@ -99,14 +99,14 @@
 
 .jm-name {
   margin: 0 0 0.6rem;
-  font-size: 2rem;
+  font-size: 2.15rem;
   line-height: 1.2;
 }
 
 .jm-role {
   margin: 0 0 1rem;
   color: #505a66;
-  font-size: 0.98rem;
+  font-size: 1rem;
   line-height: 1.6;
 }
 
@@ -119,7 +119,7 @@
 .jm-contact li {
   margin-bottom: 0.55rem;
   color: #334;
-  font-size: 0.95rem;
+  font-size: 0.98rem;
 }
 
 .jm-contact a {
@@ -323,17 +323,17 @@
 }
 
 .jm-exp-projects {
-  margin: 0.95rem 0 0;
-  padding: 0;
+  margin: 1rem 0 0;
+  padding: 0 0 0 0.15rem;
   list-style: none;
 }
 
 .jm-exp-project-item {
   position: relative;
   display: grid;
-  grid-template-columns: 18px minmax(0, 1fr);
-  gap: 0.9rem;
-  margin-bottom: 1rem;
+  grid-template-columns: 20px minmax(0, 1fr);
+  gap: 0.95rem;
+  margin-bottom: 1.1rem;
 }
 
 .jm-exp-project-item:last-child {
@@ -342,30 +342,18 @@
 
 .jm-exp-project-marker {
   position: relative;
-  width: 18px;
+  width: 20px;
 }
 
 .jm-exp-project-marker::before {
-  content: "";
+  content: "•";
   position: absolute;
-  top: 0.38rem;
+  top: -0.08rem;
   left: 50%;
-  width: 10px;
-  height: 10px;
-  background: #2b6cb0;
-  border-radius: 50%;
-  transform: translateX(-50%);
-  box-shadow: 0 0 0 4px rgba(43, 108, 176, 0.12);
-}
-
-.jm-exp-project-item:not(:last-child) .jm-exp-project-marker::after {
-  content: "";
-  position: absolute;
-  top: 1rem;
-  bottom: -0.9rem;
-  left: 50%;
-  width: 1px;
-  background: linear-gradient(180deg, rgba(43, 108, 176, 0.28), rgba(43, 108, 176, 0.08));
+  font-size: 1.7rem;
+  line-height: 1;
+  font-weight: 700;
+  color: #2b6cb0;
   transform: translateX(-50%);
 }
 
@@ -449,13 +437,13 @@
   }
 
   .jm-exp-project-item {
-    grid-template-columns: 14px minmax(0, 1fr);
-    gap: 0.7rem;
+    grid-template-columns: 18px minmax(0, 1fr);
+    gap: 0.65rem;
   }
 
   .jm-avatar {
-    width: 108px;
-    height: 108px;
+    width: 132px;
+    height: 132px;
   }
 }
 
@@ -523,11 +511,6 @@
   }
 
   .jm-exp-project-marker::before {
-    background: #6aa6ff;
-    box-shadow: 0 0 0 4px rgba(106, 166, 255, 0.14);
-  }
-
-  .jm-exp-project-item:not(:last-child) .jm-exp-project-marker::after {
-    background: linear-gradient(180deg, rgba(106, 166, 255, 0.28), rgba(106, 166, 255, 0.08));
+    color: #6aa6ff;
   }
 }
