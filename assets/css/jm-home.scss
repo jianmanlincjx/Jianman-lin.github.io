@@ -151,9 +151,15 @@
 
 .jm-news-list span {
   display: inline-block;
-  min-width: 3.8rem;
+  min-width: 4.75rem;
+  margin-right: 0.35rem;
   color: #68717d;
   font-weight: 600;
+  font-variant-numeric: tabular-nums;
+}
+
+.jm-block-title--news {
+  letter-spacing: 0.01em;
 }
 
 .jm-pub-group {

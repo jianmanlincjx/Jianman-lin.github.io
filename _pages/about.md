@@ -41,13 +41,13 @@ redirect_from:
     </section>
 
     <section class="jm-block" id="news">
-      <h2 class="jm-block-title">News</h2>
+      <h2 class="jm-block-title jm-block-title--news">🔥 News</h2>
       <ul class="jm-news-list">
-        <li><span>2025</span> Neural Scene Designer was published in <strong>IEEE TIP</strong>.</li>
-        <li><span>2025</span> CDRL was published in <strong>IJCV</strong>.</li>
-        <li><span>2024</span> ASCCL was selected as a <strong>CVPR 2024 Highlight</strong> (Top 2.8%).</li>
-        <li><span>2024</span> Joined <strong>X-Era AI</strong> as an algorithm research intern.</li>
-        <li><span>2024</span> Started M.Eng. study at <strong>SCUT</strong>.</li>
+        <li><span>2025.09</span> 🔥 Neural Scene Designer was published in <strong>IEEE TIP</strong>.</li>
+        <li><span>2025.08</span> 🎉 CDRL was published in <strong>IJCV</strong>.</li>
+        <li><span>2024.06</span> 🔥 ASCCL was selected as a <strong>CVPR 2024 Highlight</strong> (Top 2.8%). 🍻</li>
+        <li><span>2024.01</span> 🎉 Joined <strong>X-Era AI</strong> as an algorithm research intern.</li>
+        <li><span>2024.09</span> 🎉 Started M.Eng. study at <strong>SCUT</strong>.</li>
       </ul>
     </section>
 
