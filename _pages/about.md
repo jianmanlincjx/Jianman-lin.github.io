@@ -67,6 +67,7 @@ redirect_from:
             <p class="jm-pub-venue-line">
               <strong>IEEE Transactions on Image Processing (TIP)</strong>, 2025 · <span class="jm-ccf">CCF-A</span>
               <span class="jm-pub-links-inline">
+                <a href="https://github.com/jianmanlincjx" target="_blank" rel="noopener noreferrer">Code</a>
                 <a href="{{ '/publications/neural-scene-designer-tip/' | relative_url }}">Page</a>
               </span>
             </p>
@@ -83,6 +84,7 @@ redirect_from:
             <p class="jm-pub-venue-line">
               <strong>Under review</strong> · <span class="jm-ccf">IJCV (CCF-A)</span>
               <span class="jm-pub-links-inline">
+                <a href="https://github.com/jianmanlincjx" target="_blank" rel="noopener noreferrer">Code</a>
                 <a href="{{ '/publications/ijcv-2025-dagd/' | relative_url }}">Page</a>
               </span>
             </p>
@@ -103,6 +105,7 @@ redirect_from:
             <p class="jm-pub-venue-line">
               <strong>CVPR 2024</strong> · Highlight (Top 2.8%) · <span class="jm-ccf">CCF-A</span>
               <span class="jm-pub-links-inline">
+                <a href="https://github.com/jianmanlincjx" target="_blank" rel="noopener noreferrer">Code</a>
                 <a href="{{ '/publications/cvpr-2024-asccl/' | relative_url }}">Page</a>
               </span>
             </p>
@@ -119,6 +122,7 @@ redirect_from:
             <p class="jm-pub-venue-line">
               <strong>International Journal of Computer Vision (IJCV)</strong>, 2025 · <span class="jm-ccf">CCF-A</span>
               <span class="jm-pub-links-inline">
+                <a href="https://github.com/jianmanlincjx" target="_blank" rel="noopener noreferrer">Code</a>
                 <a href="{{ '/publications/ijcv-2025-cdrl/' | relative_url }}">Page</a>
               </span>
             </p>
@@ -139,7 +143,7 @@ redirect_from:
             <p class="jm-pub-venue-line">
               <strong>AIChE Journal</strong> — flagship journal of the American Institute of Chemical Engineers; <em>top-tier in chemical engineering</em>.
               <span class="jm-pub-links-inline">
-                <a href="https://github.com/tingtingwuwu/MPNN-MLP-for-Viscosity-prediction-of-DESs" target="_blank" rel="noopener noreferrer">Code</a>
+                <a href="https://github.com/jianmanlincjx" target="_blank" rel="noopener noreferrer">Code</a>
                 <a href="{{ '/publications/aiche-des-viscosity-2025/' | relative_url }}">Page</a>
               </span>
             </p>
@@ -153,10 +157,32 @@ redirect_from:
       <div class="jm-simple-item">
         <div class="jm-simple-head">
           <strong>Algorithm Research Intern, X-Era AI</strong>
-          <span>Jul. 2024 - Present</span>
+          <span>Jan. 2024 – Present</span>
         </div>
         <div class="jm-simple-sub">Guangzhou, China</div>
-        <p class="jm-exp-note">As a core algorithm contributor, I work on digital-human livestreaming, intelligent home products, and embodied AI systems.</p>
+        <ul class="jm-exp-projects">
+          <li>
+            <div class="jm-exp-project-head">
+              <strong>Digital Human Live Streaming</strong>
+              <span>2024.01 – 2024.12</span>
+            </div>
+            <p class="jm-exp-project-desc">Core algorithm lead for a production-grade digital human system; managed the end-to-end pipeline from data engineering and model design to seamless deployment.</p>
+          </li>
+          <li>
+            <div class="jm-exp-project-head">
+              <strong>Intelligent Interior Design &amp; VLM</strong>
+              <span>2025.01 – 2026.03</span>
+            </div>
+            <p class="jm-exp-project-desc">Developed a VLM-based floor plan parser achieving 98% accuracy; architected an AI Agent for automated furniture layout and user-intent alignment.</p>
+          </li>
+          <li>
+            <div class="jm-exp-project-head">
+              <strong>Embodied AI</strong>
+              <span>2026.03 – Present</span>
+            </div>
+            <p class="jm-exp-project-desc">Serving as a core researcher focused on the intersection of multimodal perception and robotic control for Embodied Intelligence.</p>
+          </li>
+        </ul>
       </div>
     </section>
 

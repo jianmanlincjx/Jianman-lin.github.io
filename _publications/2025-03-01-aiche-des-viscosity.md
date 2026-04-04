@@ -14,4 +14,4 @@ citation: 'Jianman Lin, et al. Multiscale Exploration of Informative Latent Feat
 
 Cross-disciplinary work at the interface of machine learning and chemical engineering, published in **AIChE Journal**, the flagship archival journal of the American Institute of Chemical Engineers and widely regarded as a **top-tier venue** in chemical engineering.
 
-**Code:** [MPNN-MLP for DES viscosity prediction](https://github.com/tingtingwuwu/MPNN-MLP-for-Viscosity-prediction-of-DESs) (GitHub).
+**Code:** [GitHub (jianmanlincjx)](https://github.com/jianmanlincjx).
