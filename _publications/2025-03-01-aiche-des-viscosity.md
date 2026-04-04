@@ -2,7 +2,7 @@
 title: "Multiscale Exploration of Informative Latent Features for Accurate Deep Eutectic Solvents Viscosity Prediction"
 collection: publications
 category: manuscripts
-permalink: /publications/aiche-des-viscosity-2025
+permalink: /publications/aiche-des-viscosity-2025/
 excerpt: "Interdisciplinary AI4Science: multiscale latent features for predicting deep eutectic solvent viscosity (AIChE Journal)."
 date: 2025-03-01
 venue: "AIChE Journal — flagship journal of AIChE; top-tier in chemical engineering"

@@ -2,7 +2,7 @@
 title: "Neural Scene Designer: Self-Styled Semantic Image Manipulation"
 collection: publications
 category: manuscripts
-permalink: /publications/neural-scene-designer-tip
+permalink: /publications/neural-scene-designer-tip/
 excerpt: "Diffusion framework with dual parallel cross-attention for joint text and self-supervised style control (NSD)."
 date: 2025-09-01
 venue: "IEEE Transactions on Image Processing, Vol. 34, pp. 6577–6588, 2025 · CCF-A"
