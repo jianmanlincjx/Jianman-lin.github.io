@@ -13,9 +13,9 @@ title                    : "Jianman Lin"
 title_separator          : "-"
 name                     : &name "Jianman Lin"
 description              : &description "Jianman Lin — M.Eng. @ SCUT; research in computer vision, generative AI, and controllable image synthesis."
-# Project Pages site: repo jianmanlincjx/Jianman-lin.github.io → https://jianmanlincjx.github.io/jianman-lin.github.io/
+# Project Pages site: repo jianmanlincjx/Jianman-lin.github.io → https://jianmanlincjx.github.io/Jianman-lin.github.io/
 url                      : "https://jianmanlincjx.github.io"
-baseurl                  : "/jianman-lin.github.io"
+baseurl                  : "/Jianman-lin.github.io"
 repository               : "jianmanlincjx/Jianman-lin.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
