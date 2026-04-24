@@ -43,6 +43,7 @@ redirect_from:
     <section class="jm-block" id="news">
       <h2 class="jm-block-title">News</h2>
       <ul class="jm-news-list">
+        <li><span>2026.04</span><div class="jm-news-text">Our paper <strong>Learning Spatial-Temporal Coherent Correlations for Speech-Preserving Facial Expression Manipulation</strong> was accepted by <strong>IEEE TPAMI</strong>.</div></li>
         <li><span>2025.09</span><div class="jm-news-text">Neural Scene Designer was published in <strong>IEEE TIP</strong>.</div></li>
         <li><span>2025.08</span><div class="jm-news-text">CDRL was published in <strong>IJCV</strong>.</div></li>
         <li><span>2024.06</span><div class="jm-news-text">ASCCL was selected as a <strong>CVPR 2024 Highlight</strong> (Top 2.8%).</div></li>
@@ -94,6 +95,22 @@ redirect_from:
 
       <div class="jm-pub-group">
         <div class="jm-pub-group-title">Speech-Preserving Facial Expression Manipulation</div>
+
+        <article class="jm-pub-item">
+          <a class="jm-pub-thumb" href="https://arxiv.org/pdf/2604.20226" target="_blank" rel="noopener noreferrer">
+            <img src="{{ '/images/papers/T-PAMI_2026_STCCL.png' | relative_url }}" alt="TPAMI 2026 STCCL" loading="lazy">
+          </a>
+          <div class="jm-pub-body">
+            <h3 class="jm-pub-title">Learning Spatial-Temporal Coherent Correlations for Speech-Preserving Facial Expression Manipulation</h3>
+            <p class="jm-pub-meta"><strong>Jianman Lin</strong>, <a href="https://scholar.google.com/citations?user=aNvkklMAAAAJ&amp;hl=en" target="_blank" rel="noopener noreferrer">Tianshui Chen</a>, Zhijing Yang, <a href="https://scholar.google.com/citations?user=soX8e10AAAAJ&amp;hl=en" target="_blank" rel="noopener noreferrer">Chunmei Qing</a>, Liang Lin.</p>
+            <p class="jm-pub-venue-line">
+              <strong>IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI)</strong>, 2026 · <span class="jm-ccf">CCF-A</span>
+              <span class="jm-pub-links-inline">
+                <a href="https://arxiv.org/pdf/2604.20226" target="_blank" rel="noopener noreferrer">Paper</a>
+              </span>
+            </p>
+          </div>
+        </article>
 
         <article class="jm-pub-item">
           <a class="jm-pub-thumb" href="https://openaccess.thecvf.com/content/CVPR2024/papers/Chen_Learning_Adaptive_Spatial_Coherent_Correlations_for_Speech-Preserving_Facial_Expression_Manipulation_CVPR_2024_paper.pdf" target="_blank" rel="noopener noreferrer">
