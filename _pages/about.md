@@ -22,6 +22,11 @@ redirect_from:
 
       <h1 class="jm-name">Jianman Lin</h1>
       <p class="jm-role">M.Eng. @ SCUT · Guangzhou, China</p>
+      <div class="jm-keywords" aria-label="Research keywords">
+        <span>Computer Vision</span>
+        <span>Generative AI</span>
+        <span>Speech-Preserving FEM</span>
+      </div>
 
       <ul class="jm-contact">
         <li><a href="mailto:linjianmancjx@gmail.com">Email</a></li>
@@ -217,7 +222,7 @@ redirect_from:
 
     <section class="jm-block" id="education">
       <h2 class="jm-block-title">Education</h2>
-      <div class="jm-simple-item">
+      <div class="jm-simple-item jm-simple-item--education">
         <div class="jm-simple-head">
           <strong>South China University of Technology (SCUT)</strong>
           <span>Sep. 2024 - Present</span>
@@ -226,7 +231,7 @@ redirect_from:
         <div class="jm-simple-note">Supervisors: <a href="https://scholar.google.com/citations?user=aNvkklMAAAAJ&amp;hl=en" target="_blank" rel="noopener noreferrer">Prof. Tianshui Chen</a> (research) and <a href="https://scholar.google.com/citations?user=soX8e10AAAAJ&amp;hl=en" target="_blank" rel="noopener noreferrer">Prof. Chunmei Qing</a> (academic)</div>
       </div>
 
-      <div class="jm-simple-item">
+      <div class="jm-simple-item jm-simple-item--education">
         <div class="jm-simple-head">
           <strong>Guangdong University of Technology (GDUT)</strong>
           <span>Sep. 2020 - Jun. 2024</span>
