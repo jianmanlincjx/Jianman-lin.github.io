@@ -9,10 +9,10 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
-title                    : "Jianman Lin"
+title                    : "Jianman Lin | linjianman"
 title_separator          : "-"
 name                     : &name "Jianman Lin"
-description              : &description "Jianman Lin — M.Eng. @ SCUT; research in computer vision, generative AI, and controllable image synthesis."
+description              : &description "Jianman Lin (linjianman) — M.Eng. @ SCUT; research in computer vision, generative AI, and controllable image synthesis."
 # Project Pages site: repo jianmanlincjx/Jianman-lin.github.io → https://jianmanlincjx.github.io/Jianman-lin.github.io/
 url                      : "https://jianmanlincjx.github.io"
 baseurl                  : "/Jianman-lin.github.io"
@@ -26,10 +26,10 @@ author:
   avatar           : "Jianman-lin.jpg"
   name             : "Jianman Lin"
   pronouns         :
-  bio              : "M.Eng. in Electronic Information @ SCUT. Research interests: computer vision, generative AI, controllable image synthesis."
+  bio              : "Jianman Lin (linjianman). M.Eng. in Electronic Information @ SCUT. Research interests: computer vision, generative AI, controllable image synthesis."
   location         : "Guangzhou, China"
   employer         : "South China University of Technology"
-  uri              : "https://jianmanlincjx.github.io/jianman-lin.github.io/"
+  uri              : "https://jianmanlincjx.github.io/Jianman-lin.github.io/"
   email            : "linjianmancjx@gmail.com" 
 
   # Academic websites
@@ -144,7 +144,7 @@ facebook:
   app_id                 :
   publisher              :
 og_image                 :  # Social media default site image
-og_description           :  # Social media default site image description
+og_description           : "Jianman Lin (linjianman) personal academic homepage."
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
