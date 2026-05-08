@@ -40,10 +40,13 @@ redirect_from:
     <section class="jm-block" id="about">
       <h2 class="jm-block-title">About Me</h2>
       <p>
-        I received my bachelor's degree from Guangdong University of Technology. I am currently a Master's student at South China University of Technology (SCUT), supervised by <a href="https://scholar.google.com/citations?user=aNvkklMAAAAJ&amp;hl=en" target="_blank" rel="noopener noreferrer">Tianshui Chen</a> and <a href="https://scholar.google.com/citations?user=soX8e10AAAAJ&amp;hl=en" target="_blank" rel="noopener noreferrer">Chunmei Qing</a>. My research focuses on Computer Vision, Generative AI, and Controllable Image Synthesis, with work recognized as a Highlight at CVPR and published in leading journals such as International Journal of Computer Vision (IJCV) and IEEE Transactions on Image Processing (TIP).
+        I received my Bachelor's degree from Guangdong University of Technology, where my early explorations in web-supervised fine-grained image recognition led to a granted national patent. Currently, I am a Master's student at South China University of Technology (SCUT), privileged to be advised by <a href="https://scholar.google.com/citations?user=aNvkklMAAAAJ&amp;hl=en" target="_blank" rel="noopener noreferrer">Prof. Tianshui Chen</a> and <a href="https://scholar.google.com/citations?user=soX8e10AAAAJ&amp;hl=en" target="_blank" rel="noopener noreferrer">Prof. Chunmei Qing</a>.
       </p>
       <p>
-        I am actively seeking opportunities for academic collaboration and research internships. Currently, I work as an Algorithm Research Intern at X-Era AI, where I lead the development of a digital human livestreaming system, an intelligent home solution (Feiliu AI mini-program), and embodied AI systems.
+        Driven by a deep curiosity about AI, my earlier research centered on Generative AI and Controllable Image Synthesis. My work on Speech-Preserving Facial Expression Manipulation systematically addressed data scarcity via representation learning, resulting in top-tier publications including a <strong>CVPR 2024 Highlight</strong>, <strong>T-PAMI</strong>, and <strong>IJCV</strong>. Concurrently, my exploration of Diffusion-based Editing resolved the trade-off between editability and visual consistency, culminating in a sole first-author paper in <strong>TIP 2025</strong> and another pending patent.
+      </p>
+      <p>
+        Currently, driven by a strong desire to ground AI in the physical world, my core research focus has transitioned to <strong>Embodied AI</strong>. Embracing an Industry-Academia Fusion paradigm, I am actively engineering the end-to-end robotic pipeline, from multi-arm hardware setup and teleoperation to VLA model training. Building upon this hands-on experience, I am now researching architectural solutions for critical real-world deployment failures (e.g., representation degradation), aspiring to distill practical engineering bottlenecks into my next top-tier academic contributions.
       </p>
     </section>
 
