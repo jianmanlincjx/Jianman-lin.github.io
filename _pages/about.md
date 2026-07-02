@@ -184,25 +184,25 @@ redirect_from:
 
     <section class="jm-block" id="honors">
       <h2 class="jm-block-title">Honors &amp; Awards</h2>
-      <ul class="jm-news-list">
-        <li><span>2024</span><div class="jm-news-text"><strong>CVPR 2024 Highlight</strong> (Top 2.8% of accepted papers).</div></li>
-        <!-- TODO: 补充其他奖项，例如：<li><span>2023</span><div class="jm-news-text">National Scholarship, Ministry of Education.</div></li> -->
+      <ul class="jm-service-list">
+        <li><strong>CVPR 2024 Highlight</strong> — Top 2.8% of accepted papers.</li>
+        <li><strong>First Prize (National)</strong>, China Undergraduate Mathematical Contest in Modeling (CUMCM), sponsored by Higher Education Press.</li>
+        <li><strong>Third Prize (National)</strong>, National Mechanical Engineering Innovation and Creativity Competition.</li>
       </ul>
     </section>
 
     <section class="jm-block" id="patents">
       <h2 class="jm-block-title">Patents</h2>
       <ul class="jm-news-list">
-        <li><span>Granted</span><div class="jm-news-text">Invention patent on web-supervised fine-grained image recognition. <em>National invention patent (China)</em>. <!-- TODO: 补充专利号与正式名称 --></div></li>
-        <li><span>Pending</span><div class="jm-news-text">Method for diffusion-based controllable image editing. <em>Under examination</em>. <!-- TODO: 补充申请号与正式名称 --></div></li>
+        <li><span>Granted</span><div class="jm-news-text">Invention patent on web-supervised fine-grained image recognition. <em>National invention patent (China)</em>.</div></li>
+        <li><span>Granted</span><div class="jm-news-text">Method for diffusion-based controllable image editing. <em>National invention patent (China)</em>.</div></li>
       </ul>
     </section>
 
     <section class="jm-block" id="service">
       <h2 class="jm-block-title">Academic Service</h2>
       <ul class="jm-service-list">
-        <li><strong>Conference Reviewer</strong>: <!-- TODO: 补充你实际审稿的会议，例如 CVPR, ICCV, ECCV, NeurIPS -->待补充</li>
-        <li><strong>Journal Reviewer</strong>: <!-- TODO: 补充你实际审稿的期刊，例如 IEEE TIP, IEEE TCSVT -->待补充</li>
+        <li><strong>Conference Reviewer</strong>: CVPR, ECCV, NeurIPS.</li>
       </ul>
     </section>
 
