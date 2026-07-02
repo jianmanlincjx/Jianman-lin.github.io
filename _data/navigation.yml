@@ -13,6 +13,15 @@ main:
   - title: "Publications"
     url: /#publications
 
+  - title: "Honors"
+    url: /#honors
+
+  - title: "Patents"
+    url: /#patents
+
+  - title: "Service"
+    url: /#service
+
   - title: "Experience"
     url: /#experience
 

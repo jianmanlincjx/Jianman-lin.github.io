@@ -56,8 +56,8 @@ redirect_from:
         <li><span>2026.04</span><div class="jm-news-text"><strong>STCCL</strong> was accepted by <strong>T-PAMI</strong>.</div></li>
         <li><span>2025.09</span><div class="jm-news-text">Neural Scene Designer was published in <strong>IEEE TIP</strong>.</div></li>
         <li><span>2025.08</span><div class="jm-news-text">CDRL was published in <strong>IJCV</strong>.</div></li>
-        <li><span>2024.06</span><div class="jm-news-text">ASCCL was selected as a <strong>CVPR 2024 Highlight</strong> (Top 2.8%).</div></li>
         <li><span>2024.09</span><div class="jm-news-text">Started M.Eng. study at <strong>SCUT</strong>.</div></li>
+        <li><span>2024.06</span><div class="jm-news-text">ASCCL was selected as a <strong>CVPR 2024 Highlight</strong> (Top 2.8%).</div></li>
         <li><span>2024.01</span><div class="jm-news-text">Joined <strong>X-Era AI</strong> as an algorithm research intern.</div></li>
       </ul>
     </section>
@@ -78,7 +78,7 @@ redirect_from:
             <p class="jm-pub-venue-line">
               <strong>IEEE Transactions on Image Processing (TIP)</strong>, 2025 · <span class="jm-ccf">CCF-A</span>
               <span class="jm-pub-links-inline">
-                <a href="https://github.com/jianmanlincjx" target="_blank" rel="noopener noreferrer">Code</a>
+                <a href="https://arxiv.org/pdf/2509.01405" target="_blank" rel="noopener noreferrer">PDF</a>
                 <a href="{{ '/publications/neural-scene-designer-tip/' | relative_url }}">Page</a>
               </span>
             </p>
@@ -95,7 +95,7 @@ redirect_from:
             <p class="jm-pub-venue-line">
               <strong>Under review</strong> · <span class="jm-ccf">IJCV (CCF-A)</span>
               <span class="jm-pub-links-inline">
-                <a href="https://github.com/jianmanlincjx" target="_blank" rel="noopener noreferrer">Code</a>
+                <a href="https://arxiv.org/pdf/2505.20914" target="_blank" rel="noopener noreferrer">PDF</a>
                 <a href="{{ '/publications/ijcv-2025-dagd/' | relative_url }}">Page</a>
               </span>
             </p>
@@ -116,8 +116,8 @@ redirect_from:
             <p class="jm-pub-venue-line">
               <strong>IEEE Transactions on Pattern Analysis and Machine Intelligence (T-PAMI)</strong>, 2026 · <span class="jm-ccf">CCF-A</span>
               <span class="jm-pub-links-inline">
-                <a href="https://jianmanlincjx.github.io/STCCL/" target="_blank" rel="noopener noreferrer">Code</a>
-                <a href="https://arxiv.org/pdf/2604.20226" target="_blank" rel="noopener noreferrer">Paper</a>
+                <a href="https://arxiv.org/pdf/2604.20226" target="_blank" rel="noopener noreferrer">PDF</a>
+                <a href="https://jianmanlincjx.github.io/STCCL/" target="_blank" rel="noopener noreferrer">Project</a>
               </span>
             </p>
           </div>
@@ -133,7 +133,7 @@ redirect_from:
             <p class="jm-pub-venue-line">
               <strong>CVPR 2024</strong> · Highlight (Top 2.8%) · <span class="jm-ccf">CCF-A</span>
               <span class="jm-pub-links-inline">
-                <a href="https://github.com/jianmanlincjx" target="_blank" rel="noopener noreferrer">Code</a>
+                <a href="https://openaccess.thecvf.com/content/CVPR2024/papers/Chen_Learning_Adaptive_Spatial_Coherent_Correlations_for_Speech-Preserving_Facial_Expression_Manipulation_CVPR_2024_paper.pdf" target="_blank" rel="noopener noreferrer">PDF</a>
                 <a href="{{ '/publications/cvpr-2024-asccl/' | relative_url }}">Page</a>
               </span>
             </p>
@@ -150,7 +150,7 @@ redirect_from:
             <p class="jm-pub-venue-line">
               <strong>International Journal of Computer Vision (IJCV)</strong>, 2025 · <span class="jm-ccf">CCF-A</span>
               <span class="jm-pub-links-inline">
-                <a href="https://github.com/jianmanlincjx" target="_blank" rel="noopener noreferrer">Code</a>
+                <a href="https://arxiv.org/pdf/2504.05672" target="_blank" rel="noopener noreferrer">PDF</a>
                 <a href="{{ '/publications/ijcv-2025-cdrl/' | relative_url }}">Page</a>
               </span>
             </p>
@@ -169,15 +169,41 @@ redirect_from:
             <h3 class="jm-pub-title">Multiscale Exploration of Informative Latent Features for Accurate Deep Eutectic Solvents Viscosity Prediction</h3>
             <p class="jm-pub-meta"><strong>Jianman Lin</strong>, et al.</p>
             <p class="jm-pub-venue-line">
-              <strong>AIChE Journal</strong> — flagship journal of the American Institute of Chemical Engineers; <em>top-tier in chemical engineering</em>.
+              <strong>AIChE Journal</strong>, 2025 · <span class="jm-ccf">JCR Q1</span>
               <span class="jm-pub-links-inline">
-                <a href="https://github.com/jianmanlincjx" target="_blank" rel="noopener noreferrer">Code</a>
+                <a href="https://aiche.onlinelibrary.wiley.com/doi/abs/10.1002/aic.18924" target="_blank" rel="noopener noreferrer">DOI</a>
                 <a href="{{ '/publications/aiche-des-viscosity-2025/' | relative_url }}">Page</a>
               </span>
             </p>
           </div>
         </article>
       </div>
+
+      <p class="jm-pub-legend">* Equal contribution.</p>
+    </section>
+
+    <section class="jm-block" id="honors">
+      <h2 class="jm-block-title">Honors &amp; Awards</h2>
+      <ul class="jm-news-list">
+        <li><span>2024</span><div class="jm-news-text"><strong>CVPR 2024 Highlight</strong> (Top 2.8% of accepted papers).</div></li>
+        <!-- TODO: 补充其他奖项，例如：<li><span>2023</span><div class="jm-news-text">National Scholarship, Ministry of Education.</div></li> -->
+      </ul>
+    </section>
+
+    <section class="jm-block" id="patents">
+      <h2 class="jm-block-title">Patents</h2>
+      <ul class="jm-news-list">
+        <li><span>Granted</span><div class="jm-news-text">Invention patent on web-supervised fine-grained image recognition. <em>National invention patent (China)</em>. <!-- TODO: 补充专利号与正式名称 --></div></li>
+        <li><span>Pending</span><div class="jm-news-text">Method for diffusion-based controllable image editing. <em>Under examination</em>. <!-- TODO: 补充申请号与正式名称 --></div></li>
+      </ul>
+    </section>
+
+    <section class="jm-block" id="service">
+      <h2 class="jm-block-title">Academic Service</h2>
+      <ul class="jm-service-list">
+        <li><strong>Conference Reviewer</strong>: <!-- TODO: 补充你实际审稿的会议，例如 CVPR, ICCV, ECCV, NeurIPS -->待补充</li>
+        <li><strong>Journal Reviewer</strong>: <!-- TODO: 补充你实际审稿的期刊，例如 IEEE TIP, IEEE TCSVT -->待补充</li>
+      </ul>
     </section>
 
     <section class="jm-block" id="experience">

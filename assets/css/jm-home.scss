@@ -775,6 +775,31 @@
   color: #2a5d93;
 }
 
+/* Equal-contribution legend under Publications */
+.jm-pub-legend {
+  margin: 0.4rem 0 0;
+  font-size: 0.85rem;
+  color: var(--jm-muted);
+}
+
+/* Academic Service list */
+.jm-service-list {
+  margin: 0;
+  padding-left: 0;
+  list-style: none;
+}
+
+.jm-service-list li {
+  margin-bottom: 0.55rem;
+  font-size: 0.98rem;
+  line-height: 1.65;
+  color: #3f4a58;
+}
+
+.jm-service-list li:last-child {
+  margin-bottom: 0;
+}
+
 @media (max-width: 980px) {
   .jm-block {
     padding: 1.2rem 1rem 1.35rem;
@@ -843,5 +868,9 @@
 
   .jm-simple-item--education {
     border-left-color: #4f6a87;
+  }
+
+  .jm-service-list li {
+    color: #afb6bf;
   }
 }
