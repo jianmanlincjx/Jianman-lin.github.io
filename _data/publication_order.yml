@@ -2,7 +2,6 @@
 # Each id is the file name (without .yml) of an entry in _data/publications/.
 
 by_date_asc:
-  - 20221211_webly_electronics
   - 20240601_asccl
   - 20250301_aiche_des
   - 20250520_dgad
