@@ -1,0 +1,16 @@
+# Ordering of publication cards on the homepage.
+# Each id is the file name (without .yml) of an entry in _data/publications/.
+
+by_date_asc:
+  - 20240601_asccl
+  - 20250301_aiche_des
+  - 20250520_dgad
+  - 20250801_cdrl
+  - 20250901_nsd
+  - 20260401_stccl
+
+selected:
+  - 20260401_stccl
+  - 20250901_nsd
+  - 20240601_asccl
+  - 20250801_cdrl

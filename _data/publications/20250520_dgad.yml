@@ -1,0 +1,25 @@
+title: 'Geometry-Editable and Appearance-Preserving Object Composition'
+date: 2025-05-20
+selected: false
+authors:
+  - name: Jianman Lin
+    highlight: true
+  - name: Haojie Li
+  - name: Chunmei Qing
+  - name: Zhijing Yang
+  - name: Liang Lin
+  - name: Tianshui Chen
+media:
+  type: image
+  src: /images/papers/underreview_2026_DAGD.png
+  alt: DGAD teaser
+venue:
+  - text: 'Under review at International Journal of Computer Vision (IJCV)'
+    note: 'Preprint'
+links:
+  - label: Paper
+    kind: paper
+    url: 'https://arxiv.org/pdf/2505.20914'
+  - label: Page
+    kind: link
+    url: '/publications/ijcv-2025-dagd/'

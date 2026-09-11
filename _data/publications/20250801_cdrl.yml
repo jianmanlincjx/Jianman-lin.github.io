@@ -1,0 +1,27 @@
+title: 'Contrastive Decoupled Representation Learning and Regularization for Speech-Preserving Facial Expression Manipulation'
+date: 2025-08-01
+selected: true
+authors:
+  - name: Tianshui Chen
+  - name: Jianman Lin
+    marks: '*'
+    highlight: true
+  - name: Zhijing Yang
+  - name: Chunmei Qing
+  - name: Yukai Shi
+  - name: Liang Lin
+media:
+  type: image
+  src: /images/papers/IJCV_2025_CDRL.png
+  alt: CDRL teaser
+  fit: contain
+venue:
+  - text: 'International Journal of Computer Vision (IJCV), vol. 133, pp. 3822–3838, 2025'
+    note: 'CCF-A'
+links:
+  - label: Paper
+    kind: paper
+    url: 'https://arxiv.org/pdf/2504.05672'
+  - label: Page
+    kind: link
+    url: '/publications/ijcv-2025-cdrl/'

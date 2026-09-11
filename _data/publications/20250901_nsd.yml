@@ -1,0 +1,27 @@
+title: 'Neural Scene Designer: Self-Styled Semantic Image Manipulation'
+date: 2025-09-01
+selected: true
+authors:
+  - name: Jianman Lin
+    highlight: true
+  - name: Tianshui Chen
+  - name: Chunmei Qing
+  - name: Zhijing Yang
+  - name: Shuangping Huang
+  - name: Yuheng Ren
+  - name: Liang Lin
+media:
+  type: image
+  src: /images/papers/TIP_2025_NSD.png
+  alt: Neural Scene Designer teaser
+  fit: contain
+venue:
+  - text: 'IEEE Transactions on Image Processing (TIP), vol. 34, pp. 6577–6588, 2025'
+    note: 'CCF-A'
+links:
+  - label: Paper
+    kind: paper
+    url: 'https://arxiv.org/pdf/2509.01405'
+  - label: Page
+    kind: link
+    url: '/publications/neural-scene-designer-tip/'

@@ -1,0 +1,22 @@
+title: 'Multiscale Exploration of Informative Latent Features for Accurate Deep Eutectic Solvents Viscosity Prediction'
+date: 2025-03-01
+selected: false
+authors:
+  - name: Jianman Lin
+    highlight: true
+  - name: et al.
+media:
+  type: image
+  src: /images/papers/AICHE.png
+  alt: AIChE Journal DES viscosity teaser
+venue:
+  - text: 'AIChE Journal, 2025'
+    note: 'JCR Q1'
+  - text: 'AI4Science: machine learning for chemical engineering'
+links:
+  - label: Paper
+    kind: paper
+    url: 'https://aiche.onlinelibrary.wiley.com/doi/abs/10.1002/aic.18924'
+  - label: Page
+    kind: link
+    url: '/publications/aiche-des-viscosity-2025/'

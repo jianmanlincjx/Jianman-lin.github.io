@@ -1,0 +1,25 @@
+title: 'Learning Spatial-Temporal Coherent Correlations for Speech-Preserving Facial Expression Manipulation'
+date: 2026-04-01
+selected: true
+authors:
+  - name: Jianman Lin
+    highlight: true
+  - name: Tianshui Chen
+  - name: Zhijing Yang
+  - name: Chunmei Qing
+  - name: Liang Lin
+media:
+  type: image
+  src: /images/papers/T-PAMI_2026_STCCL.png
+  alt: STCCL teaser
+  fit: contain
+venue:
+  - text: 'IEEE Transactions on Pattern Analysis and Machine Intelligence (T-PAMI), 2026'
+    note: 'CCF-A'
+links:
+  - label: Paper
+    kind: paper
+    url: 'https://arxiv.org/pdf/2604.20226'
+  - label: Project
+    kind: website
+    url: 'https://jianmanlincjx.github.io/STCCL/'

@@ -33,10 +33,12 @@
     margin-right: auto;
     margin-top: 1em;
     max-width: 100%;
-    padding: 0 1em 1em;
+    padding: 0 clamp(1em, 4vw, 2.75em) 1em;
 
     @include breakpoint($x-large) {
       max-width: $x-large;
+      padding-left: 6em;
+      padding-right: 6em;
     }
   }
 
@@ -60,6 +62,10 @@
 .page__footer-copyright {
   font-family: $global-font-family;
   font-size: $type-size-7;
+}
+
+.page__footer-sitemap {
+  display: inline-block;
 }
 
 .page__footer-follow {
@@ -92,5 +98,79 @@
     a {
       white-space: nowrap;
     }
+  }
+}
+
+/*
+   Visitor Map
+   ========================================================================== */
+
+/* right aligned the footer visitor map */
+.page__footer-map {
+  float: right;
+  width: 150px;
+  max-width: 150px;
+  min-height: 0;
+
+  .clustrmaps-link {
+    display: block;
+    width: 100%;
+    text-decoration: none;
+    overflow: hidden;
+    border-radius: 12px;
+  }
+
+  .clustrmaps-image {
+    display: block;
+    width: 100%;
+    height: auto;
+    border: 0;
+    border-radius: 12px;
+    box-shadow: none;
+    background: transparent;
+  }
+}
+
+@media (max-width: 1100px) {
+  .page__footer {
+    footer {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) auto;
+      grid-template-areas:
+        "sitemap map"
+        "follow map"
+        "copyright map";
+      column-gap: 1.25rem;
+      row-gap: 0;
+      align-items: start;
+    }
+  }
+
+  .page__footer-sitemap {
+    grid-area: sitemap;
+  }
+
+  .page__footer-follow {
+    grid-area: follow;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .page__footer-copyright {
+    grid-area: copyright;
+    margin-top: 0;
+  }
+
+  .page__footer-map {
+    grid-area: map;
+    float: none;
+    clear: none;
+    width: 150px;
+    max-width: 150px;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: 0;
+    justify-self: end;
+    align-self: start;
   }
 }

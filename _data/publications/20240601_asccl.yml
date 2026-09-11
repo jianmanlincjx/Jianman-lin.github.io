@@ -1,0 +1,27 @@
+title: 'Learning Adaptive Spatial Coherent Correlations for Speech-Preserving Facial Expression Manipulation'
+date: 2024-06-01
+selected: true
+authors:
+  - name: Tianshui Chen
+  - name: Jianman Lin
+    highlight: true
+  - name: Zhijing Yang
+  - name: Chunmei Qing
+  - name: Liang Lin
+media:
+  type: image
+  src: /images/papers/CVPR_2024_ASCCL.png
+  alt: ASCCL teaser
+  fit: contain
+venue:
+  - text: 'IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2024'
+    note: 'Highlight · Top 2.8%'
+    note_variant: award
+  - text: 'CCF-A'
+links:
+  - label: Paper
+    kind: paper
+    url: 'https://openaccess.thecvf.com/content/CVPR2024/papers/Chen_Learning_Adaptive_Spatial_Coherent_Correlations_for_Speech-Preserving_Facial_Expression_Manipulation_CVPR_2024_paper.pdf'
+  - label: Page
+    kind: link
+    url: '/publications/cvpr-2024-asccl/'

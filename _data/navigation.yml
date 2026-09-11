@@ -1,12 +1,8 @@
 # The following is the order of the links in the header of the website.
+# The leading "About" link is added automatically by _includes/masthead.html
+# (its label comes from `mast_title` in _config.yml).
 
 main:
-  - title: "Homepage"
-    url: /
-
-  - title: "About Me"
-    url: /#about
-
   - title: "News"
     url: /#news
 

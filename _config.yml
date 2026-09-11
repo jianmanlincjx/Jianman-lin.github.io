@@ -11,8 +11,9 @@ locale                   : "en-US"
 site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
 title                    : "Jianman Lin | linjianman"
 title_separator          : "-"
+mast_title               : "About"
 name                     : &name "Jianman Lin"
-description              : &description "Jianman Lin (linjianman) — M.Eng. @ SCUT; research in computer vision, generative AI, and controllable image synthesis."
+description              : &description "Jianman Lin (linjianman) — M.Eng. student at SCUT; research in embodied AI / vision-language-action models, and controllable image synthesis."
 # Project Pages site: repo jianmanlincjx/Jianman-lin.github.io → https://jianmanlincjx.github.io/Jianman-lin.github.io/
 url                      : "https://jianmanlincjx.github.io"
 baseurl                  : "/Jianman-lin.github.io"
@@ -23,15 +24,15 @@ repository               : "jianmanlincjx/Jianman-lin.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "Jianman-lin.jpg"
+  avatar           : "bio-photo-luffy.jpg"
   name             : "Jianman Lin"
   pronouns         :
-  bio              : "Jianman Lin (linjianman). M.Eng. in Electronic Information @ SCUT. Research interests: computer vision, generative AI, controllable image synthesis."
+  bio              : "M.Eng. Student</br>South China University of Technology"
   location         : "Guangzhou, China"
-  employer         : "South China University of Technology"
-  uri              : "https://jianmanlincjx.github.io/Jianman-lin.github.io/"
-  email            : "linjianmancjx@gmail.com" 
-
+  employer         :
+  uri              :
+  email            : "linjianmancjx@gmail.com"
+  cv               : "/files/Jianman_Lin_CV.pdf"
   # Academic websites
   academia         : # URL
   arxiv            : # URL - Update with the correct link to your profile
