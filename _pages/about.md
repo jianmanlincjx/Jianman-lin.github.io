@@ -16,7 +16,7 @@ redirect_from:
 
 <span id="handwave">👋🏻</span> Hi! I'm **Jianman Lin** (林坚满), a Master's student at [South China University of Technology (SCUT)](https://www.scut.edu.cn/en/), advised by Prof. [Tianshui Chen](https://scholar.google.com/citations?user=aNvkklMAAAAJ&hl=en) and Prof. [Chunmei Qing](https://scholar.google.com/citations?user=soX8e10AAAAJ&hl=en).
 
-My research focuses on **Embodied AI**: building robot learning systems that connect perception, language, and action, from real-world data collection and teleoperation to training and deploying vision-language-action (VLA) models, with the goal of robots that generalize robustly beyond the lab.
+My research focuses on **Embodied AI**, in particular **generalizable embodied foundation models**: vision-language-action (VLA) models that connect perception, language, and action and transfer robustly to the real world.
 
 Before that, I worked on **Generative AI and Controllable Image Synthesis**: speech-preserving facial expression manipulation (**CVPR 2024 Highlight**, **T-PAMI**, **IJCV**) and diffusion-based image editing (sole first-author **TIP 2025**).
 
