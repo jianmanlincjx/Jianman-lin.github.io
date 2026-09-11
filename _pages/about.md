@@ -49,7 +49,7 @@ I am also an Algorithm Research Intern at [X-Era AI](https://www.x-era.ai/), wor
 
 ## 📜 Patents {#patents}
 - **Granted** — Invention patent on web-supervised fine-grained image recognition (National invention patent, China)
-- **Pending** — Method for diffusion-based controllable image editing (National invention patent, China)
+- **Granted** — Method for diffusion-based controllable image editing (National invention patent, China)
 
 ## 📖 Academic Service {#service}
 <ul class="resume-section">
