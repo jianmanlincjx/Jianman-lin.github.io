@@ -18,7 +18,7 @@ redirect_from:
 
 My research focuses on **Embodied AI**, in particular **generalizable embodied foundation models**: vision-language-action (VLA) models that connect perception, language, and action and transfer robustly to the real world.
 
-Before that, I worked on **Generative AI and Controllable Image Synthesis**: speech-preserving facial expression manipulation (**CVPR 2024 Highlight**, **T-PAMI**, **IJCV**) and diffusion-based image editing (sole first-author **TIP 2025**).
+Before that, I worked on **Generative AI and Controllable Image Synthesis**: speech-preserving facial expression manipulation (**CVPR 2024 Highlight**, **T-PAMI**, **IJCV**) and diffusion-based image editing (**TIP 2025**).
 
 I am also an Algorithm Research Intern at [X-Era AI](https://www.x-era.ai/), working on embodied intelligence.
 
