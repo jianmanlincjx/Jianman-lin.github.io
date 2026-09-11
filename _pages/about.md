@@ -14,11 +14,13 @@ redirect_from:
 
 <div id="about" aria-hidden="true"></div>
 
-<span id="handwave">👋🏻</span> Hi! I'm **Jianman Lin** (林建满), a Master's student at [South China University of Technology (SCUT)](https://www.scut.edu.cn/en/), advised by Prof. [Tianshui Chen](https://scholar.google.com/citations?user=aNvkklMAAAAJ&hl=en) and Prof. [Chunmei Qing](https://scholar.google.com/citations?user=soX8e10AAAAJ&hl=en). I received my B.Eng. from [Guangdong University of Technology (GDUT)](https://www.gdut.edu.cn/), where an early project on web-supervised fine-grained image recognition led to a granted national patent.
+<span id="handwave">👋🏻</span> Hi! I'm **Jianman Lin** (林坚满), a Master's student at [South China University of Technology (SCUT)](https://www.scut.edu.cn/en/), advised by Prof. [Tianshui Chen](https://scholar.google.com/citations?user=aNvkklMAAAAJ&hl=en) and Prof. [Chunmei Qing](https://scholar.google.com/citations?user=soX8e10AAAAJ&hl=en).
 
-My current research focus is **Embodied AI**: I build the end-to-end robotic pipeline, from multi-arm hardware setup and teleoperation to vision-language-action (VLA) model training, and study architectural fixes for real-world deployment failures such as representation degradation under distribution shift. Before that, I worked on **Generative AI and Controllable Image Synthesis**. My work on speech-preserving facial expression manipulation tackled data scarcity via representation learning and led to a **CVPR 2024 Highlight**, a **T-PAMI** paper, and an **IJCV** paper; my work on diffusion-based editing resolved the trade-off between editability and visual consistency, resulting in a sole first-author **TIP 2025** paper and a pending patent.
+My research focuses on **Embodied AI**. I build end-to-end robot learning pipelines, from multi-arm hardware and teleoperation to vision-language-action (VLA) model training, and study why learned policies break after deployment, in particular representation degradation under distribution shift, and how to fix it at the architecture level.
 
-I am also an Algorithm Research Intern at [X-Era AI](https://www.x-era.ai/), where I have shipped a production digital-human live-streaming system and a VLM-based interior-design agent, and now work on embodied intelligence.
+Before that, I worked on **Generative AI and Controllable Image Synthesis**: speech-preserving facial expression manipulation (**CVPR 2024 Highlight**, **T-PAMI**, **IJCV**) and diffusion-based image editing (sole first-author **TIP 2025**).
+
+I am also an Algorithm Research Intern at [X-Era AI](https://www.x-era.ai/), working on embodied intelligence.
 
 ## 🔥 News {#news}
 <ul class="home-news__list" id="news-list" data-collapsible-list data-initial-limit="5" data-expand-label="Expand news" data-collapse-label="Collapse news">
