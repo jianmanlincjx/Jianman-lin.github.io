@@ -10,9 +10,14 @@ authors:
   - name: Chunmei Qing
   - name: Feng Gao
   - name: Liang Lin
+media:
+  type: image
+  src: /images/papers/TMM_2026_PCECL.jpg
+  alt: PCECL qualitative comparison
+  fit: contain
 venue:
   - text: 'IEEE Transactions on Multimedia (TMM), 2026'
-    note: 'CCF-B'
+    note: 'CCF-A'
 links:
   - label: Paper
     kind: paper
