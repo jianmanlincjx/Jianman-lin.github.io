@@ -1,0 +1,19 @@
+title: 'Personalized Cross-Modal Emotional Correlation Learning for Speech-Preserving Facial Expression Manipulation'
+date: 2026-03-01
+selected: false
+authors:
+  - name: Tianshui Chen
+  - name: Yujie Zhu
+  - name: Jianman Lin
+    highlight: true
+  - name: Zhijing Yang
+  - name: Chunmei Qing
+  - name: Feng Gao
+  - name: Liang Lin
+venue:
+  - text: 'IEEE Transactions on Multimedia (TMM), 2026'
+    note: 'CCF-B'
+links:
+  - label: Paper
+    kind: paper
+    url: 'https://doi.org/10.1109/TMM.2026.3718629'

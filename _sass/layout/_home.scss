@@ -236,6 +236,10 @@
   border-bottom: 1px solid var(--global-border-color);
 }
 
+.publication-card--no-media {
+  grid-template-columns: 1fr;
+}
+
 .publication-card:first-child {
   padding-top: 6px;
 }

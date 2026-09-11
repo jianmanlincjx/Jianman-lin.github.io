@@ -7,7 +7,7 @@
   {% endif %}
 {% endif %}
 
-<article class="publication-card">
+<article class="publication-card{% unless publication.media %} publication-card--no-media{% endunless %}">
   {% if publication.media %}
     <div class="publication-card__media">
       <div class="publication-card__media-frame{% if publication.media.fit == 'contain' %} is-contain{% endif %}">

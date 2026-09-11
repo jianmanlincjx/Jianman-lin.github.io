@@ -2,11 +2,14 @@ title: 'Learning Spatial-Temporal Coherent Correlations for Speech-Preserving Fa
 date: 2026-04-01
 selected: true
 authors:
-  - name: Jianman Lin
-    highlight: true
   - name: Tianshui Chen
+    marks: '*'
+  - name: Jianman Lin
+    marks: '*'
+    highlight: true
   - name: Zhijing Yang
   - name: Chunmei Qing
+  - name: Guangrun Wang
   - name: Liang Lin
 media:
   type: image
@@ -23,3 +26,6 @@ links:
   - label: Project
     kind: website
     url: 'https://jianmanlincjx.github.io/STCCL/'
+  - label: DOI
+    kind: link
+    url: 'https://doi.org/10.1109/TPAMI.2026.3687518'

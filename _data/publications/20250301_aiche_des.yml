@@ -2,21 +2,28 @@ title: 'Multiscale Exploration of Informative Latent Features for Accurate Deep 
 date: 2025-03-01
 selected: false
 authors:
+  - name: Ting Wu
+  - name: Chenxi Shi
   - name: Jianman Lin
     highlight: true
-  - name: et al.
+  - name: Quanyuan Qiu
+  - name: Miaoqing Lin
+  - name: Jiuhang Song
+  - name: Yinan Hu
+  - name: Xinyuan Fu
+  - name: Xiaoqing Lin
 media:
   type: image
   src: /images/papers/AICHE.png
   alt: AIChE Journal DES viscosity teaser
 venue:
-  - text: 'AIChE Journal, 2025'
+  - text: 'AIChE Journal, vol. 71, no. 10, 2025'
     note: 'JCR Q1'
   - text: 'AI4Science: machine learning for chemical engineering'
 links:
   - label: Paper
     kind: paper
-    url: 'https://aiche.onlinelibrary.wiley.com/doi/abs/10.1002/aic.18924'
+    url: 'https://doi.org/10.1002/aic.18924'
   - label: Page
     kind: link
     url: '/publications/aiche-des-viscosity-2025/'
