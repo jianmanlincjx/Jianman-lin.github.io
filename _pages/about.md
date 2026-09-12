@@ -24,6 +24,7 @@ I am also an Algorithm Research Intern at [X-Era AI](https://www.x-era.ai/), wor
 
 ## 🔥 News {#news}
 <ul class="home-news__list" id="news-list" data-collapsible-list data-initial-limit="5" data-expand-label="Expand news" data-collapse-label="Collapse news">
+  <li><strong>[2026/09]</strong> Our preprint <em>LIT: Breaking the Vision-Action Shortcut</em> is out, with <a href="https://magiclab-nus.github.io/LIT/">project page</a> and <a href="https://github.com/MAGICLAB-NUS/LIT">code</a>. Joint work with the <a href="https://magiclab-nus.github.io/">MAGIC Lab</a> at NUS.</li>
   <li><strong>[2026/04]</strong> <em>STCCL</em> (Learning Spatial-Temporal Coherent Correlations for Speech-Preserving Facial Expression Manipulation) has been accepted to <a href="https://www.computer.org/csdl/journal/tp">IEEE T-PAMI</a>.</li>
   <li><strong>[2025/09]</strong> <em>Neural Scene Designer</em> has been published in <a href="https://signalprocessingsociety.org/publications-resources/ieee-transactions-image-processing">IEEE TIP</a>.</li>
   <li><strong>[2025/08]</strong> <em>CDRL</em> has been published in <a href="https://link.springer.com/journal/11263">IJCV</a>.</li>

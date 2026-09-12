@@ -9,8 +9,10 @@ by_date_asc:
   - 20250901_nsd
   - 20260301_pcecl_tmm
   - 20260401_stccl
+  - 20260910_lit
 
 selected:
+  - 20260910_lit
   - 20260401_stccl
   - 20250901_nsd
   - 20240601_asccl
