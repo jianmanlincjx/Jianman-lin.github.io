@@ -14,7 +14,7 @@ redirect_from:
 
 <div id="about" aria-hidden="true"></div>
 
-<span id="handwave">👋🏻</span> Hi! I'm **Jianman Lin** (林坚满), a Master's student at [South China University of Technology (SCUT)](https://www.scut.edu.cn/en/), advised by Prof. [Tianshui Chen](https://scholar.google.com/citations?user=aNvkklMAAAAJ&hl=en) and Prof. [Chunmei Qing](https://scholar.google.com/citations?user=soX8e10AAAAJ&hl=en).
+<span id="handwave">👋🏻</span> Hi! I'm **Jianman Lin** (林坚满), a Master's student at [South China University of Technology (SCUT)](https://www.scut.edu.cn/en/), advised by Prof. [Chunmei Qing](https://scholar.google.com/citations?user=soX8e10AAAAJ&hl=en) and Prof. [Tianshui Chen](https://scholar.google.com/citations?user=aNvkklMAAAAJ&hl=en).
 
 My research focuses on **Embodied AI**, in particular **generalizable embodied foundation models**: vision-language-action (VLA) models that connect perception, language, and action and transfer robustly to the real world.
 
