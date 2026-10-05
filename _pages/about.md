@@ -57,7 +57,7 @@ I am also an Algorithm Research Intern at [X-Era AI](https://www.x-era.ai/), wor
   <li class="resume-entry">
     <p class="resume-entry__heading"><strong>Conference Reviewer</strong></p>
     <ul class="resume-entry__details">
-      <li>CVPR, ECCV, NeurIPS</li>
+      <li>CVPR, ECCV, ICRA, NeurIPS</li>
     </ul>
   </li>
 </ul>
