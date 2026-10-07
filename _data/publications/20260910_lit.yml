@@ -16,7 +16,7 @@ media:
   alt: LIT real-world demo
   playback_rate: 1
 venue:
-  - text: 'Preprint, 2026'
+  - text: 'Under review, 2026'
     note: 'Embodied AI'
   - text: 'LIT routes vision through a compact, pose-supervised latent interface so actions stay grounded in the task; improves out-of-distribution generalization across four VLA/WAM architectures.'
 links:
