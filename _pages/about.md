@@ -86,6 +86,6 @@ I am also a Research Intern (AI & Robotics) at [X-Era AI](https://www.x-era.ai/)
 
   <li class="resume-entry">
     <p class="resume-entry__heading"><strong>Guangdong University of Technology (GDUT)</strong>, <em>Sep. 2020 – Jun. 2024</em></p>
-    <p class="resume-entry__line"><em>B.Eng. in Industrial Engineering · GPA: 87.2/100</em></p>
+    <p class="resume-entry__line"><em>B.Eng. in Industrial Engineering</em></p>
   </li>
 </ul>
