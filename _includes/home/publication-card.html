@@ -57,6 +57,9 @@
           {% if venue_line.note %}
             <span class="publication-card__venue-note{% if venue_line.note_variant %} publication-card__venue-note--{{ venue_line.note_variant }}{% endif %}">{{ venue_line.note }}</span>
           {% endif %}
+          {% for extra_note in venue_line.notes %}
+            <span class="publication-card__venue-note{% if extra_note.variant %} publication-card__venue-note--{{ extra_note.variant }}{% endif %}">{{ extra_note.text }}</span>
+          {% endfor %}
         </p>
       {% endfor %}
     </div>

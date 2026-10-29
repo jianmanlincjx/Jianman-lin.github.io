@@ -17,7 +17,8 @@ venue:
   - text: 'IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2024'
     note: 'Highlight · Top 2.8%'
     note_variant: award
-  - text: 'CCF-A'
+    notes:
+      - text: 'CCF-A'
 links:
   - label: Paper
     kind: paper
