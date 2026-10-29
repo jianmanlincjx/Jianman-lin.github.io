@@ -24,7 +24,7 @@ I am also a Research Intern (AI & Robotics) at [X-Era AI](https://www.x-era.ai/)
 
 ## 🔥 News {#news}
 <ul class="home-news__list" id="news-list" data-collapsible-list data-initial-limit="5" data-expand-label="Expand news" data-collapse-label="Collapse news">
-  <li><strong>[2026/10]</strong> Awarded the <strong>National Scholarship for Graduate Students</strong> by the Ministry of Education of China.</li>
+  <li><strong>[2026/10]</strong> Awarded the <strong>National Scholarship for Graduate Students</strong> (China’s top-level graduate scholarship).</li>
   <li><strong>[2026/09]</strong> Our preprint <em>LIT: Breaking the Vision-Action Shortcut</em> is out, with <a href="https://magiclab-nus.github.io/LIT/">project page</a> and <a href="https://github.com/MAGICLAB-NUS/LIT">code</a>. Joint work with the <a href="https://magiclab-nus.github.io/">MAGIC Lab</a> at NUS.</li>
   <li><strong>[2026/04]</strong> <em>STCCL</em> (Learning Spatial-Temporal Coherent Correlations for Speech-Preserving Facial Expression Manipulation) has been accepted to <a href="https://www.computer.org/csdl/journal/tp">IEEE T-PAMI</a>.</li>
   <li><strong>[2025/09]</strong> <em>Neural Scene Designer</em> has been published in <a href="https://signalprocessingsociety.org/publications-resources/ieee-transactions-image-processing">IEEE TIP</a>.</li>
@@ -45,7 +45,7 @@ I am also a Research Intern (AI & Robotics) at [X-Era AI](https://www.x-era.ai/)
 {% include home/publications-section.html %}
 
 ## 🏅 Honors & Awards {#honors}
-- **National Scholarship for Graduate Students (2026)**, Ministry of Education of China
+- **National Scholarship for Graduate Students (2026)**, China’s top-level graduate scholarship
 - **CVPR 2024 Highlight** (Top 2.8% of accepted papers), with [ASCCL](https://openaccess.thecvf.com/content/CVPR2024/papers/Chen_Learning_Adaptive_Spatial_Coherent_Correlations_for_Speech-Preserving_Facial_Expression_Manipulation_CVPR_2024_paper.pdf)
 - **First Prize (National)**, China Undergraduate Mathematical Contest in Modeling (CUMCM)
 - **Third Prize (National)**, National Mechanical Engineering Innovation and Creativity Competition
