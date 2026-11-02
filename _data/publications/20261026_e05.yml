@@ -32,7 +32,7 @@ venue:
     note: 'Embodied AI'
     notes:
       - text: 'Core contributor'
-  - text: 'A world-action model built natively on 3D foundation models: it predicts future 3D geometry together with actions, scales through a Mixture-of-Geometry backbone, and leads RoboTwin 2.0 (clean and randomized) over video- and VLM-centred WAMs, with real dual-arm robot deployment.'
+  - text: 'A geometry-native world-action model: a 3D foundation model is the primary backbone, and future 3D geometry is predicted jointly with actions. Mixture-of-Geometry scales it across 3D backbones; top on RoboTwin 2.0 and deployed on real dual-arm robots.'
 links:
   - label: Paper
     kind: paper
