@@ -29,9 +29,9 @@ links:
   - label: Code
     kind: code
     url: 'https://github.com/MAGICLAB-NUS/LIT'
-  - label: Checkpoints (coming soon)
+  - label: Checkpoints
     kind: models
-    url: 'https://magiclab-nus.github.io/LIT/'
-  - label: Dataset (coming soon)
+    url: 'https://huggingface.co/shailes-h/Molmoact2-LIT'
+  - label: Dataset
     kind: dataset
-    url: 'https://magiclab-nus.github.io/LIT/'
+    url: 'https://huggingface.co/datasets/shailes-h/yam_bimanual_manipulation'

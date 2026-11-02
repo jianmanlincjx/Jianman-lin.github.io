@@ -1,0 +1,51 @@
+title: 'E0.5: From Reconstructive to Future-Predictive 3D Foundations for Robotic World-Action Modeling'
+date: 2026-10-26
+selected: true
+authors:
+  - name: Jianhao Lai
+    marks: '*'
+  - name: Zhihao Zhan
+    marks: '*'
+  - name: Zhiquan Liao
+    marks: '*'
+  - name: Qichang Li
+  - name: Shubin Chen
+  - name: Zhiyuan Liu
+  - name: Hongsen Lei
+  - name: Jianman Lin
+    highlight: true
+  - name: Xiaoxin Lin
+  - name: Tianshui Chen
+    marks: '†'
+  - name: Liang Lin
+    marks: '†'
+  - name: Guangrun Wang
+    marks: '†'
+  - name: and 14 more contributors (X-Era AI Lab Team)
+media:
+  type: image
+  src: /images/papers/arXiv_2026_E05.png
+  alt: E0.5 overview
+  fit: contain
+venue:
+  - text: 'arXiv preprint arXiv:2610.36011, 2026'
+    note: 'Embodied AI'
+    notes:
+      - text: 'Core contributor'
+  - text: 'A world-action model built natively on 3D foundation models: it predicts future 3D geometry together with actions, scales through a Mixture-of-Geometry backbone, and leads RoboTwin 2.0 (clean and randomized) over video- and VLM-centred WAMs, with real dual-arm robot deployment.'
+links:
+  - label: Paper
+    kind: paper
+    url: 'https://arxiv.org/abs/2610.36011'
+  - label: Project
+    kind: website
+    url: 'https://www.x-era.ai/e05/index.html'
+  - label: Code
+    kind: code
+    url: 'https://github.com/X-EraAI/e05'
+  - label: Checkpoints
+    kind: models
+    url: 'https://huggingface.co/X-EraAI/e05-robotwin'
+  - label: Dataset
+    kind: dataset
+    url: 'https://huggingface.co/datasets/X-EraAI/e05-robotwin-data'

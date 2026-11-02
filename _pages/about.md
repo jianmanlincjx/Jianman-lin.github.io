@@ -24,6 +24,7 @@ I am also a Research Intern (AI & Robotics) at [X-Era AI](https://www.x-era.ai/)
 
 ## 🔥 News {#news}
 <ul class="home-news__list" id="news-list" data-collapsible-list data-initial-limit="5" data-expand-label="Expand news" data-collapse-label="Collapse news">
+  <li><strong>[2026/10]</strong> <em>E0.5</em>, a geometry-native world-action model from the X-Era AI Lab Team, is out on <a href="https://arxiv.org/abs/2610.36011">arXiv</a>, with <a href="https://www.x-era.ai/e05/index.html">project page</a>, <a href="https://github.com/X-EraAI/e05">code</a> and <a href="https://huggingface.co/X-EraAI">checkpoints</a>. I am one of the core contributors.</li>
   <li><strong>[2026/10]</strong> Awarded the <strong>National Scholarship for Graduate Students</strong> (China’s top-level graduate scholarship).</li>
   <li><strong>[2026/09]</strong> Our preprint <em>LIT: Breaking the Vision-Action Shortcut</em> is out, with <a href="https://magiclab-nus.github.io/LIT/">project page</a> and <a href="https://github.com/MAGICLAB-NUS/LIT">code</a>. Joint work with the <a href="https://magiclab-nus.github.io/">MAGIC Lab</a> at NUS.</li>
   <li><strong>[2026/04]</strong> <em>STCCL</em> (Learning Spatial-Temporal Coherent Correlations for Speech-Preserving Facial Expression Manipulation) has been accepted to <a href="https://www.computer.org/csdl/journal/tp">IEEE T-PAMI</a>.</li>
