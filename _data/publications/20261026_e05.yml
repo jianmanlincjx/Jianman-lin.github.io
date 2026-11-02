@@ -23,10 +23,10 @@ authors:
     marks: '†'
   - name: and 14 more contributors (X-Era AI Lab Team)
 media:
-  type: image
-  src: /images/papers/arXiv_2026_E05.png
-  alt: E0.5 overview
-  fit: contain
+  type: video
+  src: /images/publications/E05_demo.mp4
+  alt: E0.5 demo - one RoboTwin episode shown as RGB, predicted future depth, predicted future point cloud, then RGB
+  playback_rate: 1
 venue:
   - text: 'arXiv preprint arXiv:2610.36011, 2026'
     note: 'Embodied AI'
