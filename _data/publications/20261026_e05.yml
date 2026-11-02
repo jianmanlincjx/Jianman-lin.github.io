@@ -25,7 +25,7 @@ authors:
 media:
   type: video
   src: /images/publications/E05_demo.mp4
-  alt: E0.5 demo - one RoboTwin episode shown as RGB, predicted future depth, predicted future point cloud, then RGB
+  alt: E0.5 demo - a RoboTwin episode whose view cycles between RGB, predicted future depth and predicted future point cloud as the robot acts
   playback_rate: 1
 venue:
   - text: 'arXiv preprint arXiv:2610.36011, 2026'
