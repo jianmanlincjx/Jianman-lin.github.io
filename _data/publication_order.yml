@@ -1,6 +1,39 @@
 # Ordering of publication cards on the homepage.
 # Each id is the file name (without .yml) of an entry in _data/publications/.
 
+# Topic groups. Both views render these headings in this order, and papers inside a
+# group appear in the listed order. A paper missing from every group is appended
+# under `ungrouped_title` in the "All Publications" view so nothing is silently dropped.
+groups:
+  - title: Embodied AI
+    ids:
+      - 20260910_lit
+      - 20261026_e05
+  - title: Speech-Preserving Facial Expression Manipulation
+    ids:
+      - 20260401_stccl
+      - 20260301_pcecl_tmm
+      - 20250801_cdrl
+      - 20240601_asccl
+  - title: Controllable Image Editing and Generation
+    ids:
+      - 20250901_nsd
+      - 20250520_dgad
+  - title: AI for Science
+    ids:
+      - 20250301_aiche_des
+
+ungrouped_title: Other
+
+# Papers shown in the "Selected" view (membership only; order follows `groups`).
+selected:
+  - 20260910_lit
+  - 20261026_e05
+  - 20260401_stccl
+  - 20250901_nsd
+  - 20240601_asccl
+  - 20250801_cdrl
+
 by_date_asc:
   - 20240601_asccl
   - 20250301_aiche_des
@@ -11,11 +44,3 @@ by_date_asc:
   - 20260401_stccl
   - 20261026_e05
   - 20260910_lit
-
-selected:
-  - 20260910_lit
-  - 20261026_e05
-  - 20260401_stccl
-  - 20250901_nsd
-  - 20240601_asccl
-  - 20250801_cdrl

@@ -1,5 +1,15 @@
+{% assign publication_groups = site.data.publication_order.groups %}
 {% assign selected_publication_ids = site.data.publication_order.selected | default: site.data.publication_order.selected_by_preference %}
 {% assign all_publication_ids = site.data.publication_order.by_date_asc | reverse %}
+{% assign ungrouped_title = site.data.publication_order.ungrouped_title | default: "Other" %}
+
+{%- comment -%} Ids that belong to some group, as a "|"-joined string for `contains` checks. {%- endcomment -%}
+{% assign grouped_publication_ids = "" %}
+{% for group in publication_groups %}
+  {% for publication_id in group.ids %}
+    {% assign grouped_publication_ids = grouped_publication_ids | append: "|" | append: publication_id | append: "|" %}
+  {% endfor %}
+{% endfor %}
 
 <div class="home-section__toolbar home-section__toolbar--publications">
   <div class="publication-legend">
@@ -15,20 +25,48 @@
 
 <div class="home-publications">
   <div class="home-publications__view" data-publication-view="selected">
-    {% for publication_id in selected_publication_ids %}
-      {% assign publication = site.data.publications[publication_id] %}
-      {% if publication and publication.selected %}
-        {% include home/publication-card.html publication=publication %}
+    {% for group in publication_groups %}
+      {% assign group_ids = "" | split: "" %}
+      {% for publication_id in group.ids %}
+        {% if selected_publication_ids contains publication_id %}
+          {% assign publication = site.data.publications[publication_id] %}
+          {% if publication and publication.selected %}
+            {% assign group_ids = group_ids | push: publication_id %}
+          {% endif %}
+        {% endif %}
+      {% endfor %}
+      {% if group_ids.size > 0 %}
+        {% include home/publication-group.html title=group.title ids=group_ids view="selected" %}
       {% endif %}
     {% endfor %}
   </div>
 
   <div class="home-publications__view" data-publication-view="all" hidden>
-    {% for publication_id in all_publication_ids %}
-      {% assign publication = site.data.publications[publication_id] %}
-      {% if publication %}
-        {% include home/publication-card.html publication=publication %}
+    {% for group in publication_groups %}
+      {% assign group_ids = "" | split: "" %}
+      {% for publication_id in group.ids %}
+        {% assign publication = site.data.publications[publication_id] %}
+        {% if publication %}
+          {% assign group_ids = group_ids | push: publication_id %}
+        {% endif %}
+      {% endfor %}
+      {% if group_ids.size > 0 %}
+        {% include home/publication-group.html title=group.title ids=group_ids view="all" %}
       {% endif %}
     {% endfor %}
+
+    {% assign ungrouped_ids = "" | split: "" %}
+    {% for publication_id in all_publication_ids %}
+      {% assign needle = "|" | append: publication_id | append: "|" %}
+      {% unless grouped_publication_ids contains needle %}
+        {% assign publication = site.data.publications[publication_id] %}
+        {% if publication %}
+          {% assign ungrouped_ids = ungrouped_ids | push: publication_id %}
+        {% endif %}
+      {% endunless %}
+    {% endfor %}
+    {% if ungrouped_ids.size > 0 %}
+      {% include home/publication-group.html title=ungrouped_title ids=ungrouped_ids view="all" %}
+    {% endif %}
   </div>
 </div>

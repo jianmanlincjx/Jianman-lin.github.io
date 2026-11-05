@@ -1,0 +1,19 @@
+{%- comment -%}
+One topic group of publication cards.
+  include.title  — heading text
+  include.ids    — array of publication ids (already filtered for the current view)
+  include.view   — "selected" | "all", used to keep heading ids unique
+{%- endcomment -%}
+{% assign group_slug = include.title | slugify %}
+<section class="publication-group" aria-labelledby="publication-group-{{ include.view }}-{{ group_slug }}">
+  <h3 class="publication-group__title" id="publication-group-{{ include.view }}-{{ group_slug }}">
+    <span class="publication-group__label">{{ include.title }}</span>
+    <span class="publication-group__count" aria-label="{{ include.ids.size }} papers">{{ include.ids.size }}</span>
+  </h3>
+  <div class="publication-group__list">
+    {% for publication_id in include.ids %}
+      {% assign publication = site.data.publications[publication_id] %}
+      {% include home/publication-card.html publication=publication %}
+    {% endfor %}
+  </div>
+</section>
