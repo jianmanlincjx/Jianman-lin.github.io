@@ -373,6 +373,32 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const repos = Array.from(new Set(chips.map((chip) => chip.dataset.githubRepo)));
 
+    // shields.io reports "1.2k"-style values; turn them back into numbers.
+    const parseShieldsValue = (text) => {
+      const match = /^([\d.]+)\s*([kKmM]?)$/.exec(String(text).trim());
+      if (!match) {
+        return NaN;
+      }
+      const scale = { k: 1e3, K: 1e3, m: 1e6, M: 1e6 }[match[2]] || 1;
+      return Math.round(Number.parseFloat(match[1]) * scale);
+    };
+
+    const fromGitHubApi = (repo) =>
+      window
+        .fetch(`https://api.github.com/repos/${repo}`, { headers: { Accept: "application/vnd.github+json" } })
+        .then((response) => (response.ok ? response.json() : null))
+        .then((data) => (data && Number.isFinite(data.stargazers_count) ? data.stargazers_count : null));
+
+    // Fallback for clients whose shared IP has exhausted the unauthenticated API quota.
+    const fromShields = (repo) =>
+      window
+        .fetch(`https://img.shields.io/github/stars/${repo}.json`)
+        .then((response) => (response.ok ? response.json() : null))
+        .then((data) => {
+          const stars = data ? parseShieldsValue(data.value || data.message) : NaN;
+          return Number.isFinite(stars) ? stars : null;
+        });
+
     repos.forEach((repo) => {
       const cached = readCache(repo);
       if (cached !== null) {
@@ -380,17 +406,17 @@ document.addEventListener("DOMContentLoaded", () => {
         return;
       }
 
-      window
-        .fetch(`https://api.github.com/repos/${repo}`, { headers: { Accept: "application/vnd.github+json" } })
-        .then((response) => (response.ok ? response.json() : null))
-        .then((data) => {
-          if (data && Number.isFinite(data.stargazers_count)) {
-            writeCache(repo, data.stargazers_count);
-            apply(repo, data.stargazers_count);
+      fromGitHubApi(repo)
+        .catch(() => null)
+        .then((stars) => (stars === null ? fromShields(repo) : stars))
+        .then((stars) => {
+          if (stars !== null) {
+            writeCache(repo, stars);
+            apply(repo, stars);
           }
         })
         .catch(() => {
-          /* offline or rate limited: keep whatever is rendered */
+          /* offline: keep whatever is rendered */
         });
     });
   };
