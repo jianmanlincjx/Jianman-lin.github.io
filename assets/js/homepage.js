@@ -317,9 +317,88 @@ document.addEventListener("DOMContentLoaded", () => {
     window.setTimeout(requestUpdate, 160);
   };
 
+  // Live GitHub star counts on "Code" chips (data-github-repo="owner/repo").
+  // Unauthenticated API: 60 requests/hour per client, so results are cached in localStorage.
+  const initializeGitHubStars = () => {
+    const chips = Array.from(document.querySelectorAll("[data-github-repo]"));
+
+    if (chips.length === 0 || typeof window.fetch !== "function") {
+      return;
+    }
+
+    const cacheTtlMs = 6 * 60 * 60 * 1000;
+    const formatCount = (value) => {
+      if (value >= 1000) {
+        const compact = value >= 10000 ? Math.round(value / 1000) : Math.round(value / 100) / 10;
+        return `${compact}k`;
+      }
+      return String(value);
+    };
+
+    const readCache = (repo) => {
+      try {
+        const raw = window.localStorage.getItem(`github-stars:${repo}`);
+        if (!raw) {
+          return null;
+        }
+        const parsed = JSON.parse(raw);
+        return Date.now() - parsed.at < cacheTtlMs ? parsed.stars : null;
+      } catch (error) {
+        return null;
+      }
+    };
+
+    const writeCache = (repo, stars) => {
+      try {
+        window.localStorage.setItem(`github-stars:${repo}`, JSON.stringify({ stars, at: Date.now() }));
+      } catch (error) {
+        /* storage unavailable; ignore */
+      }
+    };
+
+    const apply = (repo, stars) => {
+      chips
+        .filter((chip) => chip.dataset.githubRepo === repo)
+        .forEach((chip) => {
+          const metric = chip.querySelector("[data-github-stars]");
+          const value = chip.querySelector("[data-github-stars-value]");
+          if (!metric || !value) {
+            return;
+          }
+          value.textContent = formatCount(stars);
+          metric.setAttribute("aria-label", `${stars} GitHub stars`);
+          metric.hidden = false;
+        });
+    };
+
+    const repos = Array.from(new Set(chips.map((chip) => chip.dataset.githubRepo)));
+
+    repos.forEach((repo) => {
+      const cached = readCache(repo);
+      if (cached !== null) {
+        apply(repo, cached);
+        return;
+      }
+
+      window
+        .fetch(`https://api.github.com/repos/${repo}`, { headers: { Accept: "application/vnd.github+json" } })
+        .then((response) => (response.ok ? response.json() : null))
+        .then((data) => {
+          if (data && Number.isFinite(data.stargazers_count)) {
+            writeCache(repo, data.stargazers_count);
+            apply(repo, data.stargazers_count);
+          }
+        })
+        .catch(() => {
+          /* offline or rate limited: keep whatever is rendered */
+        });
+    });
+  };
+
   initializeVisitorCountWidgets();
   initializeMapMyVisitorsWidgets();
   initializeSectionNavigation();
+  initializeGitHubStars();
 
   const publicationButtons = Array.from(document.querySelectorAll("[data-publication-switch]"));
   const publicationViews = Array.from(document.querySelectorAll("[data-publication-view]"));

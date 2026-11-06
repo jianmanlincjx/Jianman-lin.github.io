@@ -72,12 +72,17 @@
             {% if link.kind == prioritized_kind %}
               {% assign link_citations = link.citations | default: 0 | plus: 0 %}
               {% assign link_stars = link.stars | default: 0 | plus: 0 %}
+              {% assign link_github_repo = "" %}
+              {% if link.kind == "code" and link.url contains "github.com/" %}
+                {% assign link_github_parts = link.url | split: "github.com/" | last | split: "#" | first | split: "?" | first | split: "/" %}
+                {% if link_github_parts.size >= 2 %}{% assign link_github_repo = link_github_parts[0] | append: "/" | append: link_github_parts[1] | remove: ".git" %}{% endif %}
+              {% endif %}
               {% if link.url contains "://" %}
                 {% assign link_href = link.url %}
               {% else %}
                 {% assign link_href = link.url | relative_url %}
               {% endif %}
-              <a class="publication-chip" href="{{ link_href }}" target="_blank" rel="noopener noreferrer">
+              <a class="publication-chip" href="{{ link_href }}" target="_blank" rel="noopener noreferrer"{% if link_github_repo != "" %} data-github-repo="{{ link_github_repo }}"{% endif %}>
                 {% case link.kind %}
                   {% when "paper" %}
                     <i class="fa-solid fa-file-lines" aria-hidden="true"></i>
@@ -104,9 +109,9 @@
                     <span>{{ link_citations }}</span>
                     <i class="fa-solid fa-quote-right publication-chip__metric-icon publication-chip__metric-icon--citations" aria-hidden="true"></i>
                   </span>
-                {% elsif link.kind == "code" and link_stars > 0 %}
-                  <span class="publication-chip__metric publication-chip__metric--stars" aria-label="{{ link_stars }} GitHub stars">
-                    <span>{{ link_stars }}</span>
+                {% elsif link.kind == "code" and link_stars > 0 or link_github_repo != "" %}
+                  <span class="publication-chip__metric publication-chip__metric--stars" aria-label="{{ link_stars }} GitHub stars" data-github-stars{% if link_stars == 0 %} hidden{% endif %}>
+                    <span data-github-stars-value>{% if link_stars > 0 %}{{ link_stars }}{% endif %}</span>
                     <i class="fa-solid fa-star publication-chip__metric-icon publication-chip__metric-icon--stars" aria-hidden="true"></i>
                   </span>
                 {% endif %}
@@ -118,12 +123,17 @@
           {% unless prioritized_link_kinds contains link.kind %}
             {% assign link_citations = link.citations | default: 0 | plus: 0 %}
             {% assign link_stars = link.stars | default: 0 | plus: 0 %}
+            {% assign link_github_repo = "" %}
+            {% if link.kind == "code" and link.url contains "github.com/" %}
+              {% assign link_github_parts = link.url | split: "github.com/" | last | split: "#" | first | split: "?" | first | split: "/" %}
+              {% if link_github_parts.size >= 2 %}{% assign link_github_repo = link_github_parts[0] | append: "/" | append: link_github_parts[1] | remove: ".git" %}{% endif %}
+            {% endif %}
             {% if link.url contains "://" %}
               {% assign link_href = link.url %}
             {% else %}
               {% assign link_href = link.url | relative_url %}
             {% endif %}
-            <a class="publication-chip" href="{{ link_href }}" target="_blank" rel="noopener noreferrer">
+            <a class="publication-chip" href="{{ link_href }}" target="_blank" rel="noopener noreferrer"{% if link_github_repo != "" %} data-github-repo="{{ link_github_repo }}"{% endif %}>
               {% case link.kind %}
                 {% when "paper" %}
                   <i class="fa-solid fa-file-lines" aria-hidden="true"></i>
@@ -150,9 +160,9 @@
                   <span>{{ link_citations }}</span>
                   <i class="fa-solid fa-quote-right publication-chip__metric-icon publication-chip__metric-icon--citations" aria-hidden="true"></i>
                 </span>
-              {% elsif link.kind == "code" and link_stars > 0 %}
-                <span class="publication-chip__metric publication-chip__metric--stars" aria-label="{{ link_stars }} GitHub stars">
-                  <span>{{ link_stars }}</span>
+              {% elsif link.kind == "code" and link_stars > 0 or link_github_repo != "" %}
+                <span class="publication-chip__metric publication-chip__metric--stars" aria-label="{{ link_stars }} GitHub stars" data-github-stars{% if link_stars == 0 %} hidden{% endif %}>
+                  <span data-github-stars-value>{% if link_stars > 0 %}{{ link_stars }}{% endif %}</span>
                   <i class="fa-solid fa-star publication-chip__metric-icon publication-chip__metric-icon--stars" aria-hidden="true"></i>
                 </span>
               {% endif %}

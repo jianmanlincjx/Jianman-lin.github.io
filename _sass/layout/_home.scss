@@ -472,6 +472,10 @@
   line-height: 1;
 }
 
+.publication-chip__metric[hidden] {
+  display: none;
+}
+
 .publication-chip .publication-chip__metric-icon {
   display: flex;
   align-items: center;
