@@ -81,7 +81,7 @@ I am also a Research Intern (AI & Robotics) at [X-Era AI](https://www.x-era.ai/)
 
 <div id="packaging-demo" style="scroll-margin-top: 80px; width: 100%; max-width: 480px; margin: 1.4rem auto 0.4rem; text-align: center;">
   <div class="publication-card__media-frame" style="aspect-ratio: 64 / 43;">
-    <video class="publication-card__video" src="{{ site.baseurl }}/files/videos/robot_packaging.mp4" poster="{{ site.baseurl }}/files/videos/robot_packaging_poster.jpg" autoplay muted loop playsinline webkit-playsinline disablepictureinpicture preload="metadata" data-playback-rate="1" aria-label="Dual-arm robot packing items into a carton and sealing it with tape"></video>
+    <video class="publication-card__video" src="{{ site.baseurl }}/files/videos/robot_packaging.mp4" poster="{{ site.baseurl }}/files/videos/robot_packaging_poster.jpg" controls autoplay muted loop playsinline webkit-playsinline preload="metadata" aria-label="Dual-arm robot packing items into a carton and sealing it with tape"></video>
   </div>
   <div style="margin-top: 0.75rem; font-size: 0.9rem; line-height: 1.5; color: var(--global-text-color-light);">
     <strong style="color: var(--global-text-color);">Robotic Flexible Packaging</strong> · project lead · 3× speed
