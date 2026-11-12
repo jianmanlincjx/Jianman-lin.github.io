@@ -72,19 +72,40 @@ I am also a Research Intern (AI & Robotics) at [X-Era AI](https://www.x-era.ai/)
     <p class="resume-entry__heading"><strong>X-Era AI</strong> &amp; <strong>ExpanderaAI Lab</strong>, <em>Guangzhou, China</em></p>
     <p class="resume-entry__line"><em>Research Intern: AI &amp; Robotics, Dec. 2023 – Present</em></p>
     <ul class="resume-entry__details">
-      <li><strong>Robotic Flexible Packaging</strong> (2026.03 – present, project lead): organized and designed a dual-arm system that packs items into a carton and seals it with tape, a ~5-minute long-horizon task, reaching <strong>90% success</strong>; combined subtask reasoning for long-horizon decomposition with offline reinforcement learning for robust execution, and built the pipeline from teleoperation data collection to real-robot deployment. <a href="#packaging-demo">Video ↓</a></li>
+      <li><strong>Robotic Flexible Packaging</strong> (2026.03 – present, project lead): led a dual-arm packing system through a ~5-minute long-horizon task to <strong>90% success</strong>, from teleoperation data collection to real-robot deployment. <a href="#packaging-demo">Demo ↓</a></li>
       <li><strong>Intelligent Interior Design &amp; VLM</strong> (2025.01 – 2026.03): built a VLM-based floor-plan parser (98% accuracy) and an AI agent for automated furniture layout aligned with user intent.</li>
       <li><strong>Digital Human Live Streaming</strong> (2024.01 – 2024.12): core algorithm lead of a production-grade digital-human system, owning the pipeline from data engineering and model design to deployment.</li>
     </ul>
   </li>
 </ul>
 
-<div id="packaging-demo" style="scroll-margin-top: 80px;">
-  <p><strong>Robotic flexible packaging demo</strong> <em>(3× speed)</em></p>
-  <video controls muted playsinline preload="metadata" poster="{{ site.baseurl }}/files/videos/robot_packaging_poster.jpg" style="width: 100%; max-width: 720px; border-radius: 8px;">
-    <source src="{{ site.baseurl }}/files/videos/robot_packaging.mp4" type="video/mp4">
-  </video>
-</div>
+<article class="publication-card" id="packaging-demo" style="scroll-margin-top: 80px; margin-top: 0.9rem; padding-top: 14px; border-top: 1px solid var(--global-border-color);">
+  <div class="publication-card__media">
+    <div class="publication-card__media-frame" style="aspect-ratio: 32 / 21;">
+      <video class="publication-card__video" src="{{ site.baseurl }}/files/videos/robot_packaging.mp4" poster="{{ site.baseurl }}/files/videos/robot_packaging_poster.jpg" autoplay muted loop playsinline webkit-playsinline disablepictureinpicture preload="metadata" data-playback-rate="1" aria-label="Dual-arm robot packing items into a carton and sealing it with tape"></video>
+    </div>
+  </div>
+  <div class="publication-card__body">
+    <h3 class="publication-card__title">Robotic Flexible Packaging</h3>
+    <p class="publication-card__authors"><span class="publication-card__author--self">Project lead</span> · X-Era AI · 2026.03 – present</p>
+    <div class="publication-card__venues">
+      <p class="publication-card__venue-line publication-card__venue-line--primary">
+        Dual-arm, long-horizon packing
+        <span class="publication-card__venue-note publication-card__venue-note--award">90% success</span>
+        <span class="publication-card__venue-note">~5-min task</span>
+      </p>
+      <p class="publication-card__venue-line">
+        <span class="publication-card__venue-note">Subtask reasoning</span>
+        <span class="publication-card__venue-note">Offline RL</span>
+        <span class="publication-card__venue-note">Real-robot deployment</span>
+      </p>
+    </div>
+    <p class="publication-card__authors" style="margin: 0;">Packs items into a carton and seals it with tape, end to end. Subtask reasoning breaks the long task into steps; offline reinforcement learning makes each step robust.</p>
+    <div class="publication-card__links">
+      <a class="publication-chip" href="{{ site.baseurl }}/files/videos/robot_packaging.mp4" target="_blank" rel="noopener"><i class="fas fa-fw fa-play" aria-hidden="true"></i><span>Full video (3×)</span></a>
+    </div>
+  </div>
+</article>
 
 ## 🎓 Education {#education}
 <ul class="resume-section">
