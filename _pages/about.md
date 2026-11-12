@@ -72,12 +72,19 @@ I am also a Research Intern (AI & Robotics) at [X-Era AI](https://www.x-era.ai/)
     <p class="resume-entry__heading"><strong>X-Era AI</strong> &amp; <strong>ExpanderaAI Lab</strong>, <em>Guangzhou, China</em></p>
     <p class="resume-entry__line"><em>Research Intern: AI &amp; Robotics, Dec. 2023 – Present</em></p>
     <ul class="resume-entry__details">
-      <li><strong>Embodied AI</strong> (2026.03 – present): trained and deployed VLA policies that autonomously complete ~5-minute manipulation tasks; built the full pipeline from hardware setup, teleoperation and data collection to training and deployment on AgileX Piper, UR5, ARX and Zerith arms.</li>
+      <li><strong>Robotic Flexible Packaging</strong> (2026.03 – present, project lead): organized and designed a dual-arm system that packs items into a carton and seals it with tape, a ~5-minute long-horizon task, reaching <strong>90% success</strong>; combined subtask reasoning for long-horizon decomposition with offline reinforcement learning for robust execution, and built the pipeline from teleoperation data collection to real-robot deployment. <a href="#packaging-demo">Video ↓</a></li>
       <li><strong>Intelligent Interior Design &amp; VLM</strong> (2025.01 – 2026.03): built a VLM-based floor-plan parser (98% accuracy) and an AI agent for automated furniture layout aligned with user intent.</li>
       <li><strong>Digital Human Live Streaming</strong> (2024.01 – 2024.12): core algorithm lead of a production-grade digital-human system, owning the pipeline from data engineering and model design to deployment.</li>
     </ul>
   </li>
 </ul>
+
+<div id="packaging-demo" style="scroll-margin-top: 80px;">
+  <p><strong>Robotic flexible packaging demo</strong> <em>(3× speed)</em></p>
+  <video controls muted playsinline preload="metadata" poster="{{ site.baseurl }}/files/videos/robot_packaging_poster.jpg" style="width: 100%; max-width: 720px; border-radius: 8px;">
+    <source src="{{ site.baseurl }}/files/videos/robot_packaging.mp4" type="video/mp4">
+  </video>
+</div>
 
 ## 🎓 Education {#education}
 <ul class="resume-section">
