@@ -79,33 +79,20 @@ I am also a Research Intern (AI & Robotics) at [X-Era AI](https://www.x-era.ai/)
   </li>
 </ul>
 
-<article class="publication-card" id="packaging-demo" style="scroll-margin-top: 80px; margin-top: 0.9rem; padding-top: 14px; border-top: 1px solid var(--global-border-color);">
-  <div class="publication-card__media">
-    <div class="publication-card__media-frame" style="aspect-ratio: 32 / 21;">
-      <video class="publication-card__video" src="{{ site.baseurl }}/files/videos/robot_packaging.mp4" poster="{{ site.baseurl }}/files/videos/robot_packaging_poster.jpg" autoplay muted loop playsinline webkit-playsinline disablepictureinpicture preload="metadata" data-playback-rate="1" aria-label="Dual-arm robot packing items into a carton and sealing it with tape"></video>
-    </div>
+<figure id="packaging-demo" style="scroll-margin-top: 80px; max-width: 480px; margin: 1.4rem auto 0.4rem; text-align: center;">
+  <div class="publication-card__media-frame" style="aspect-ratio: 64 / 43;">
+    <video class="publication-card__video" src="{{ site.baseurl }}/files/videos/robot_packaging.mp4" poster="{{ site.baseurl }}/files/videos/robot_packaging_poster.jpg" autoplay muted loop playsinline webkit-playsinline disablepictureinpicture preload="metadata" data-playback-rate="1" aria-label="Dual-arm robot packing items into a carton and sealing it with tape"></video>
   </div>
-  <div class="publication-card__body">
-    <h3 class="publication-card__title">Robotic Flexible Packaging</h3>
-    <p class="publication-card__authors"><span class="publication-card__author--self">Project lead</span> · X-Era AI · 2026.03 – present</p>
-    <div class="publication-card__venues">
-      <p class="publication-card__venue-line publication-card__venue-line--primary">
-        Dual-arm, long-horizon packing
-        <span class="publication-card__venue-note publication-card__venue-note--award">90% success</span>
-        <span class="publication-card__venue-note">~5-min task</span>
-      </p>
-      <p class="publication-card__venue-line">
-        <span class="publication-card__venue-note">Subtask reasoning</span>
-        <span class="publication-card__venue-note">Offline RL</span>
-        <span class="publication-card__venue-note">Real-robot deployment</span>
-      </p>
-    </div>
-    <p class="publication-card__authors" style="margin: 0;">Packs items into a carton and seals it with tape, end to end. Subtask reasoning breaks the long task into steps; offline reinforcement learning makes each step robust.</p>
-    <div class="publication-card__links">
-      <a class="publication-chip" href="{{ site.baseurl }}/files/videos/robot_packaging.mp4" target="_blank" rel="noopener"><i class="fas fa-fw fa-play" aria-hidden="true"></i><span>Full video (3×)</span></a>
-    </div>
-  </div>
-</article>
+  <figcaption style="margin-top: 0.75rem; font-size: 0.9rem; line-height: 1.5; color: var(--global-text-color-light);">
+    <strong style="color: var(--global-text-color);">Robotic Flexible Packaging</strong> · project lead · 3× speed
+    <span style="display: flex; flex-wrap: wrap; justify-content: center; gap: 6px; margin-top: 0.45rem;">
+      <span class="publication-card__venue-note publication-card__venue-note--award">90% success</span>
+      <span class="publication-card__venue-note">~5-min long-horizon task</span>
+      <span class="publication-card__venue-note">Subtask reasoning</span>
+      <span class="publication-card__venue-note">Offline RL</span>
+    </span>
+  </figcaption>
+</figure>
 
 ## 🎓 Education {#education}
 <ul class="resume-section">
