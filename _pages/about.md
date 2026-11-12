@@ -73,7 +73,7 @@ I am also a Research Intern (AI & Robotics) at [X-Era AI](https://www.x-era.ai/)
     <p class="resume-entry__line"><em>Research Intern: AI &amp; Robotics, Dec. 2023 – Present</em></p>
     <ul class="resume-entry__details">
       <li><strong>Robotic Flexible Packaging</strong> (2026.03 – present, project lead): led a dual-arm packing system through a ~5-minute long-horizon task to <strong>90% success</strong>, from teleoperation data collection to real-robot deployment. <a href="#packaging-demo">Demo ↓</a></li>
-      <li><strong>Intelligent Interior Design &amp; VLM</strong> (2025.01 – 2026.03): built a VLM-based floor-plan parser (98% accuracy) and an AI agent for automated furniture layout aligned with user intent.</li>
+      <li><strong>Intelligent Interior Design &amp; VLM</strong> (2025.01 – 2026.03): brought multimodal large models into a vertical business for the <a href="https://www.flykerai.com" target="_blank" rel="noopener">Feiliu AI interior design product</a>, building a VLM-based floor-plan parser (98% accuracy) and an AI agent for automated furniture layout aligned with user intent.</li>
       <li><strong>Digital Human Live Streaming</strong> (2024.01 – 2024.12): core algorithm lead of a production-grade digital-human system, owning the pipeline from data engineering and model design to deployment.</li>
     </ul>
   </li>
